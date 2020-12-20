@@ -11,9 +11,6 @@
 #' @export
 check_names <- function(names){
 
-  # Read common name key
-  spp_key <- read.csv("data/california_species_key.csv", as.is=T)
-
   # Identify unique species
   spp_vec <- sort(unique(names))
 
