@@ -18,7 +18,7 @@ check_names <- function(names){
   spp_vec_bad <- spp_vec[!spp_vec %in% spp_key$comm_name]
 
   # Identify correct names
-  spp_vec_good <- sapply(spp_vec_bad, function(x) spp_key$comm_name[agrep(x, spp_key$comm_name)])
+  spp_vec_good <- sapply(spp_vec_bad, function(x) spp_key$comm_name[agrep(x, spp_key$comm_name)][1])
 
   # Identify the best alternatives
   key <- data.frame(comm_name_orig=spp_vec_bad,
