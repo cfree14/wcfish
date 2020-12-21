@@ -1,7 +1,7 @@
 
 #' Check spelling of common names for West Coast fish species
 #'
-#' This function checks the spelling
+#' This function checks the spelling of common names for West Coast fish species. It aims to help harmonize datasets based on common names.
 #'
 #' @param names A character vector of species common names
 #' @return A data frame showing suggestions for misspelled common names

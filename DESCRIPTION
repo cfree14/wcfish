@@ -4,7 +4,7 @@ Title: West Coast fisheries data
 Version: 0.1.0
 Author: Chris Free
 Maintainer: Chris Free <cfree14@gmail.com>
-Description: West Coast fisheries data
+Description: This package contains a number of U.S. West Coast fisheries datasets (mostly landings data) as well as functions for cleaning and analyzing West Coast fisheris data.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

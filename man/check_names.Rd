@@ -13,7 +13,7 @@ check_names(names)
 A data frame showing suggestions for misspelled common names
 }
 \description{
-This function checks the spelling
+This function checks the spelling of common names for West Coast fish species. It aims to help harmonize datasets based on common names.
 }
 \examples{
 # Suggest spelling corrections for common names
