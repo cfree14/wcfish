@@ -11,7 +11,7 @@ The "wcfish" R package can be installed from GitHub with:
 install.packages("devtools")
 
 # Run once devtools is successfully installed
-devtools::install_github("cfree14/wcfish")
+devtools::install_github("cfree14/wcfish", force=T)
 library(wcfish)
 ```
 
