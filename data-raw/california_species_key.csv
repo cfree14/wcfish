@@ -17,6 +17,7 @@ Crustacean,King crab
 Crustacean,Mantis shrimp
 Crustacean,Market crab
 Crustacean,Ocean shrimp
+Crustacean,Pacific ocean shrimp
 Crustacean,Pelagic red crab
 Crustacean,Pink (ocean) shrimp
 Crustacean,Red rock crab
@@ -58,6 +59,7 @@ Fish,Black surfperch
 Fish,Black-and-yellow rockfish
 Fish,Black/blue rockfish group
 Fish,Blackfin tuna
+Fish,Blackfish
 Fish,Blackgill rockfish
 Fish,Blacksmith
 Fish,Blacktip shark
@@ -110,6 +112,7 @@ Fish,Deep nearshore rockfish group
 Fish,Deepbody anchovy
 Fish,Deepwater reds rockfish group
 Fish,Diamond turbot
+Fish,Dolphinfish
 Fish,Dover sole
 Fish,Dusky shark
 Fish,Eel
@@ -168,6 +171,7 @@ Fish,Opah
 Fish,Opaleye
 Fish,Pacific angel shark
 Fish,Pacific bonito
+Fish,Pacific butterfish
 Fish,Pacific cod
 Fish,Pacific electric ray
 Fish,Pacific hagfish
@@ -275,10 +279,11 @@ Fish,Thornyheads
 Fish,Threadfin shad
 Fish,Threespine stickleback
 Fish,Thresher shark
+Fish,Top or jack smelt
 Fish,Topsmelt
 Fish,Treefish rockfish
 Fish,Triggerfish
-Fish,True smelts
+Fish,True smelt
 Fish,Turbot
 Fish,Unspecifed croaker
 Fish,Unspecified fish
@@ -352,8 +357,8 @@ Mollusk,Unspecified octopus
 Mollusk,Unspecified oyster
 Mollusk,Unspecified scallop
 Mollusk,White abalone
-Other,All species
 Other,All other species
+Other,All species
 Other,Miscellaneous (animal food)
 Other invertebrate,Amphioxus lancelets
 Other invertebrate,Anemones
