@@ -43,6 +43,7 @@ Fish,Albacore tuna
 Fish,American shad
 Fish,Anchovy
 Fish,Arrowtooth flounder
+Fish,Arrowtooth halibut
 Fish,Arrowtooth rockfish
 Fish,Aurora rockfish
 Fish,Bank rockfish
@@ -56,6 +57,7 @@ Fish,Bigeye tuna
 Fish,Bigmouth sole
 Fish,Black croaker
 Fish,Black rockfish
+Fish,Black sea bass
 Fish,Black skipjack tuna
 Fish,Black surfperch
 Fish,Black-and-yellow rockfish
@@ -72,6 +74,7 @@ Fish,Bluefin tuna
 Fish,Bocaccio rockfish
 Fish,Bocaccio/chili rockfish group
 Fish,Bolina rockfish group
+Fish,Bonito
 Fish,Bronzespotted rockfish
 Fish,Broomtail grouper
 Fish,Brown bullhead
@@ -81,6 +84,7 @@ Fish,Bullet mackerel
 Fish,Butter sole
 Fish,Butterfish (Pacific pompano)
 Fish,Cabezon
+Fish,Cabrilla
 Fish,Calico rockfish
 Fish,Calico surfperch
 Fish,California barracuda
@@ -90,6 +94,7 @@ Fish,California halibut
 Fish,California lizardfish
 Fish,California moray eel
 Fish,California needlefish
+Fish,California pompano
 Fish,California scorpionfish
 Fish,California sheephead
 Fish,California skate
@@ -136,6 +141,7 @@ Fish,Greenstriped rockfish
 Fish,Grenadier
 Fish,Grenadiers
 Fish,Grouper
+Fish,Hake
 Fish,Halfmoon
 Fish,Hardhead
 Fish,Hitch
@@ -171,6 +177,7 @@ Fish,Oilfish
 Fish,Olive rockfish
 Fish,Opah
 Fish,Opaleye
+Fish,Oriental tuna
 Fish,Pacific angel shark
 Fish,Pacific bonito
 Fish,Pacific butterfish
@@ -246,7 +253,7 @@ Fish,Silver surfperch
 Fish,Silversides
 Fish,Sixgill shark
 Fish,Skate
-Fish,Skipjack tuna
+Fish,Skipjack
 Fish,Skipjack tuna
 Fish,Slender sole
 Fish,Slope rockfish group
@@ -313,6 +320,7 @@ Fish,White croaker
 Fish,White seabass
 Fish,White shark
 Fish,White surfperch
+Fish,Whitebait
 Fish,Whitebait smelt
 Fish,Widow rockfish
 Fish,Wolf eel
@@ -344,6 +352,7 @@ Mollusk,Mussel
 Mollusk,Northern razor clam
 Mollusk,Octopus
 Mollusk,Pink abalone
+Mollusk,Pismo clam
 Mollusk,Purple clam
 Mollusk,Red abalone
 Mollusk,Rosy razor clam
