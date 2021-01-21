@@ -3,6 +3,9 @@
 # Notes
 # https://r-pkgs.org/data.html
 
+# Packages
+library(tidyverse)
+
 # Read data
 spp_key <- read.csv("data-raw/california_species_key.csv", as.is=T) %>%
   arrange(type, comm_name) %>%
