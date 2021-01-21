@@ -14,6 +14,7 @@ Crustacean,Ghost shrimp
 Crustacean,Golden prawn
 Crustacean,Hermit crab
 Crustacean,King crab
+Crustacean,Lobster
 Crustacean,Mantis shrimp
 Crustacean,Market crab
 Crustacean,Ocean shrimp
@@ -29,6 +30,7 @@ Crustacean,Rock crab
 Crustacean,Sand crab
 Crustacean,Sheep crab
 Crustacean,Shore crab
+Crustacean,Shrimp
 Crustacean,Signal crayfish
 Crustacean,Southern kelp crab
 Crustacean,Spiny lobster
@@ -47,6 +49,7 @@ Fish,Arrowtooth halibut
 Fish,Arrowtooth rockfish
 Fish,Aurora rockfish
 Fish,Bank rockfish
+Fish,Barracuda
 Fish,Barred sand bass
 Fish,Barred surfperch
 Fish,Basking shark
@@ -75,6 +78,8 @@ Fish,Bocaccio rockfish
 Fish,Bocaccio/chili rockfish group
 Fish,Bolina rockfish group
 Fish,Bonito
+Fish,Bonito tuna
+Fish,Broadbill swordfish
 Fish,Bronzespotted rockfish
 Fish,Broomtail grouper
 Fish,Brown bullhead
@@ -102,6 +107,7 @@ Fish,California yellowtail
 Fish,Canary rockfish
 Fish,Canary/vermilion rockfish group
 Fish,Carp
+Fish,Catfish
 Fish,Chameleon rockfish
 Fish,Chilipepper rockfish
 Fish,China rockfish
@@ -148,6 +154,7 @@ Fish,Hitch
 Fish,Honeycomb rockfish
 Fish,Horn shark
 Fish,Hornyhead turbot
+Fish,Horse mackerel
 Fish,Jack mackerel
 Fish,Jacksmelt
 Fish,Juvenile sardine
@@ -156,6 +163,7 @@ Fish,Kelp greenling
 Fish,Kelp rockfish
 Fish,Kelpfishes
 Fish,Keyhole limpet
+Fish,Kingfish
 Fish,Leopard shark
 Fish,Lingcod
 Fish,Longfin sanddab
@@ -171,6 +179,7 @@ Fish,Mullet
 Fish,Nearshore rockfish group
 Fish,Night smelt
 Fish,Northern anchovy
+Fish,Northern halibut
 Fish,Ocean sunfish
 Fish,Ocean whitefish
 Fish,Oilfish
@@ -182,6 +191,7 @@ Fish,Pacific angel shark
 Fish,Pacific bonito
 Fish,Pacific butterfish
 Fish,Pacific cod
+Fish,Pacific cultus
 Fish,Pacific electric ray
 Fish,Pacific hagfish
 Fish,Pacific hake
@@ -240,6 +250,7 @@ Fish,Senorita
 Fish,Sevengill shark
 Fish,Shad
 Fish,Shark
+Fish,Sheepshead
 Fish,Shelf rockfish group
 Fish,Shiner surfperch
 Fish,Shortbelly rockfish
@@ -260,6 +271,7 @@ Fish,Slope rockfish group
 Fish,Small rockfish group
 Fish,Smelt
 Fish,Smooth hammerhead shark
+Fish,Sole
 Fish,Soupfin shark
 Fish,Speckled rockfish
 Fish,Speckled sanddab
@@ -338,19 +350,24 @@ Mollusk,Black abalone
 Mollusk,Bubble snail
 Mollusk,California jackknife clam
 Mollusk,California native oyster
+Mollusk,Clam
 Mollusk,Common littleneck clam
 Mollusk,Eastern oyster
 Mollusk,Gaper clam
 Mollusk,Giant Pacific oyster
 Mollusk,Green abalone
+Mollusk,Jackknife clam
+Mollusk,Japanese oyster
 Mollusk,Jumbo squid
 Mollusk,Kellet's whelk
 Mollusk,Market squid
 Mollusk,Miscellaneous mollusk
 Mollusk,Moon snails
 Mollusk,Mussel
+Mollusk,Native oyster
 Mollusk,Northern razor clam
 Mollusk,Octopus
+Mollusk,Pacific oyster
 Mollusk,Pink abalone
 Mollusk,Pismo clam
 Mollusk,Purple clam
