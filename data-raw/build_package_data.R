@@ -60,6 +60,14 @@ check3_group <- spp_key_orig %>%
             sci_names=paste(sort(unique(scientific_name)), collapse=", ")) %>%
   filter(n_sci_names>1)
 
+# 3c) Do official common names have only one scientific name?
+# should be zero rows
+check3_all <- spp_key_orig %>%
+  group_by(comm_name) %>%
+  summarise(n_sci_names=n_distinct(scientific_name),
+            sci_names=paste(sort(unique(scientific_name)), collapse=", ")) %>%
+  filter(n_sci_names>1)
+
 
 # Export data
 ########################################################################################
