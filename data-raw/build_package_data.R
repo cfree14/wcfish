@@ -24,19 +24,37 @@ spp_all <- sort(unique(spp_key_orig$scientific_name))
 spp_check <- spp_all[!grepl("spp", spp_all) & !grepl(",", spp_all)]
 freeR::suggest_names(spp_check)
 
-# 2) Do scientific names have only one official common name?
+# 2a) Do scientific names have only one official common name?
 # should be zero rows
-check2 <- spp_key_orig %>%
+check2_spp <- spp_key_orig %>%
   filter(level1=="species") %>%
   group_by(scientific_name) %>%
   summarise(n_comm_names=n_distinct(comm_name),
             comm_names=paste(sort(unique(comm_name)), collapse=", ")) %>%
   filter(n_comm_names>1)
 
-# 3) Do official common names have only one scientific name?
+# 2b) Do scientific names have only one official common name?
+# I'm okay with sceintific names being used for multiple vague common names
+check2_group <- spp_key_orig %>%
+  filter(level1=="group") %>%
+  group_by(scientific_name) %>%
+  summarise(n_comm_names=n_distinct(comm_name),
+            comm_names=paste(sort(unique(comm_name)), collapse=", ")) %>%
+  filter(n_comm_names>1)
+
+# 3a) Do official common names have only one scientific name?
 # should be zero rows
-check3 <- spp_key_orig %>%
+check3_spp <- spp_key_orig %>%
   filter(level1=="species") %>%
+  group_by(comm_name) %>%
+  summarise(n_sci_names=n_distinct(scientific_name),
+            sci_names=paste(sort(unique(scientific_name)), collapse=", ")) %>%
+  filter(n_sci_names>1)
+
+# 3b) Do official common names have only one scientific name?
+# should be zero rows
+check3_group <- spp_key_orig %>%
+  filter(level1=="group") %>%
   group_by(comm_name) %>%
   summarise(n_sci_names=n_distinct(scientific_name),
             sci_names=paste(sort(unique(scientific_name)), collapse=", ")) %>%
