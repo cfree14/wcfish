@@ -4,18 +4,20 @@
 \alias{check_names}
 \title{Check spelling of common names for West Coast fish species}
 \usage{
-check_names(names)
+check_names(names, return = 1)
 }
 \arguments{
 \item{names}{A character vector of species common names}
+
+\item{return}{1 returns a list formatted for recoding and 2 returns a data frame}
 }
 \value{
-A data frame showing suggestions for misspelled common names
+A list or data frame showing suggestions for misspelled common names
 }
 \description{
 This function checks the spelling of common names for West Coast fish species. It aims to help harmonize datasets based on common names.
 }
 \examples{
 # Suggest spelling corrections for common names
-check_names(names=c("Pacific codd", "CA spiny lobster", "Dungeness crab"))
+check_names(names=c("Pacific codd", "CA spiny lobster", "Dungeness crab"), return=2)
 }
