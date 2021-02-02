@@ -34,7 +34,7 @@ check2_spp <- spp_key_orig %>%
   filter(n_comm_names>1)
 
 # 2b) Do scientific names have only one official common name?
-# I'm okay with sceintific names being used for multiple vague common names
+# I'm okay with scientific names being used for multiple vague common names
 check2_group <- spp_key_orig %>%
   filter(level1=="group") %>%
   group_by(scientific_name) %>%
