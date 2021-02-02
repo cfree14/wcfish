@@ -16,13 +16,13 @@ check_names <- function(names, return=1){
   spp_vec <- sort(unique(names))
 
   # Which names are not correct?
-  spp_vec_bad <- spp_vec[!spp_vec %in% spp_key$comm_name]
+  spp_vec_bad <- spp_vec[!spp_vec %in% spp_key$comm_name_orig]
 
   # If bad names
   if(length(spp_vec_bad)>0){
 
     # Identify correct names
-    spp_vec_good <- sapply(spp_vec_bad, function(x) spp_key$comm_name[agrep(x, spp_key$comm_name)][1])
+    spp_vec_good <- sapply(spp_vec_bad, function(x) spp_key$comm_name_orig[agrep(x, spp_key$comm_name_orig)][1])
 
     # Identify the best alternatives
     key <- data.frame(comm_name_orig=spp_vec_bad,
