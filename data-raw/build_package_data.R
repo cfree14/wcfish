@@ -7,9 +7,6 @@
 library(readxl)
 library(tidyverse)
 
-# Read port key
-ports <- readxl::read_excel("data-raw/california_port_key.xlsx")
-
 # Read species key
 spp_key_orig <- readxl::read_excel("data-raw/california_species_key.xlsx")
 
@@ -101,4 +98,4 @@ spp_key <- spp_key_orig %>%
   arrange(type, comm_name)
 
 # Save data for internal use (users can't see)
-usethis::use_data(spp_key, ports, internal = TRUE, overwrite = T)
+usethis::use_data(spp_key, internal = TRUE, overwrite = T)
