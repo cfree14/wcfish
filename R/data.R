@@ -18,3 +18,24 @@
 #'   \item{long_dd}{Longitude (°W)}
 #' }
 "ports"
+
+#' California's commercial fishing blocks
+#'
+#' A 'sf' object (think shapefile) mapping California's commercial fishing blocks.
+#'
+#' @format A 'sf' object data frame with 557 rows (blocks) and 13 variables (block attributes):
+#' \describe{
+#'   \item{block_id}{Block id}
+#'   \item{block_type}{...}
+#'   \item{block_region}{...}
+#'   \item{block_area}{...}
+#'   \item{block_district}{...}
+#'   \item{block_ramp}{...}
+#'   \item{depth}{...}
+#'   \item{block_band}{...}
+#'   \item{bloc_band_lat_dd}{...}
+#'   \item{block_lat_dd}{Latitude (°N)}
+#'   \item{block_long_dd}{Longitude (°W)}
+#'   \item{block_sqkm}{Area (sq. km)}
+#' }
+"blocks"
