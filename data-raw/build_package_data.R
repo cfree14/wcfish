@@ -7,8 +7,12 @@
 library(readxl)
 library(tidyverse)
 
-# Read data
+# Read port key
+ports <- readxl::read_excel("data-raw/california_port_key.xlsx")
+
+# Read species key
 spp_key_orig <- readxl::read_excel("data-raw/california_species_key.xlsx")
+
 
 # Perform checks
 ########################################################################################
@@ -68,6 +72,26 @@ check3_all <- spp_key_orig %>%
             sci_names=paste(sort(unique(scientific_name)), collapse=", ")) %>%
   filter(n_sci_names>1)
 
+# Build species key
+if(F){
+
+  # Build spp key
+  taxa_key <- spp_key_orig %>%
+    select(type, comm_name, scientific_name) %>%
+    unique()
+
+  # Get taxa info
+  taxa_info <- freeR::taxa(species=taxa_key$scientific_name)
+
+  # Add
+  taxa_key1 <- taxa_key %>%
+    left_join(taxa_info %>% select(-c(type, species)), by=c("scientific_name"="sciname"))
+
+  # Export
+  write.csv(taxa_key1, file="data-raw/california_species_taxonomic_info_key.csv", row.names = F)
+
+}
+
 
 # Export data
 ########################################################################################
@@ -77,4 +101,4 @@ spp_key <- spp_key_orig %>%
   arrange(type, comm_name)
 
 # Save data for internal use (users can't see)
-usethis::use_data(spp_key, internal = TRUE, overwrite = T)
+usethis::use_data(spp_key, ports, internal = TRUE, overwrite = T)
