@@ -8,7 +8,7 @@
 #' @examples
 #' # Reverse common name
 #' reverse_names(names=c("California spiny lobster", "Pacific halibut", "Hake"))
-#' reverse_names(names=c("Lobster, California spiny", "Halibut, Pacific", "Hake"))
+#' reverse_names(names=c("Lobster, California spiny", "Halibut, Pacific", "Hake", "Crab, rock"))
 #' @export
 reverse_names <- function(names){
 
@@ -27,7 +27,7 @@ reverse_names <- function(names){
         # Get last word
         last_word <- stringr::word(x, 1) %>% gsub(",", "", .) %>% tolower()
         # Get rest of words
-        rest_of_words <- stringr::word(x, start=2, end=nwords)
+        rest_of_words <- stringr::word(x, start=2, end=nwords) %>% stringr::str_to_sentence()
         # Merge
         out_name <- paste(rest_of_words, last_word)
       }
