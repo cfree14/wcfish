@@ -18,5 +18,5 @@ This function reverses fish common name. For example, it changes "Halibut, Pacif
 \examples{
 # Reverse common name
 reverse_names(names=c("California spiny lobster", "Pacific halibut", "Hake"))
-reverse_names(names=c("Lobster, California spiny", "Halibut, Pacific", "Hake"))
+reverse_names(names=c("Lobster, California spiny", "Halibut, Pacific", "Hake", "Crab, rock"))
 }

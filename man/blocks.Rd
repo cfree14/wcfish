@@ -8,14 +8,14 @@
 A 'sf' object data frame with 557 rows (blocks) and 13 variables (block attributes):
 \describe{
   \item{block_id}{Block id}
-  \item{block_type}{...}
-  \item{block_region}{...}
-  \item{block_area}{...}
-  \item{block_district}{...}
-  \item{block_ramp}{...}
-  \item{depth}{...}
-  \item{block_band}{...}
-  \item{bloc_band_lat_dd}{...}
+  \item{block_type}{Block type (e.g., inshore, offshore)}
+  \item{block_region}{Block region (i.e., Northern, Central)}
+  \item{block_area}{Port complex}
+  \item{block_district}{District}
+  \item{block_ramp}{RAMP zone}
+  \item{depth}{Average depth (m)}
+  \item{block_band}{Latitudinal band id}
+  \item{bloc_band_lat_dd}{Latitudinal band latitude (°N)}
   \item{block_lat_dd}{Latitude (°N)}
   \item{block_long_dd}{Longitude (°W)}
   \item{block_sqkm}{Area (sq. km)}
