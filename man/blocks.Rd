@@ -5,7 +5,7 @@
 \alias{blocks}
 \title{California's commercial fishing blocks}
 \format{
-A 'sf' object data frame with 557 rows (blocks) and 13 variables (block attributes):
+An 'sf' object data frame with 557 rows (blocks) and 13 variables (block attributes):
 \describe{
   \item{block_id}{Block id}
   \item{block_type}{Block type (e.g., inshore, offshore)}
@@ -13,7 +13,7 @@ A 'sf' object data frame with 557 rows (blocks) and 13 variables (block attribut
   \item{block_area}{Port complex}
   \item{block_district}{District}
   \item{block_ramp}{RAMP zone}
-  \item{depth}{Average depth (m)}
+  \item{depth}{Depth zone (i.e., shallower or deeper than 100 fathoms)}
   \item{block_band}{Latitudinal band id}
   \item{bloc_band_lat_dd}{Latitudinal band latitude (°N)}
   \item{block_lat_dd}{Latitude (°N)}
@@ -25,6 +25,6 @@ A 'sf' object data frame with 557 rows (blocks) and 13 variables (block attribut
 blocks
 }
 \description{
-A 'sf' object (think shapefile) mapping California's commercial fishing blocks.
+An 'sf' object (similar to a shapefile) mapping California's commercial fishing blocks.
 }
 \keyword{datasets}
