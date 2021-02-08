@@ -7,8 +7,8 @@
 #' @return Reversed common name
 #' @examples
 #' # Reverse common name
-#' reverse_names(names=c("California spiny lobster", "Pacific halibut", "Hake"))
-#' reverse_names(names=c("Lobster, California spiny", "Halibut, Pacific", "Hake", "Crab, rock"))
+#' reverse_names(names=c("California spiny lobster", "Pacific halibut", "Hake", "Warty sea cucumber"))
+#' reverse_names(names=c("Lobster, California spiny", "Halibut, Pacific", "Hake", "Crab, rock", "Sea cucumber, warty"))
 #' @export
 reverse_names <- function(names){
 
@@ -24,12 +24,19 @@ reverse_names <- function(names){
 
       # If comma...
       if(comma==T){
-        # Get last word
-        last_word <- stringr::word(x, 1) %>% gsub(",", "", .) %>% tolower()
-        # Get rest of words
-        rest_of_words <- stringr::word(x, start=2, end=nwords) %>% stringr::str_to_sentence()
-        # Merge
-        out_name <- paste(rest_of_words, last_word)
+
+        # Break string by commas
+        name_list <- strsplit(x, split=", ") %>% unlist()
+        last_phrase <- name_list[length(name_list)] %>% stringr::str_to_sentence()
+        first_phrase <- paste(name_list[1:(length(name_list)-1)], collapse=" ") %>% tolower()
+        out_name <- paste(last_phrase, first_phrase)
+
+        # # Get last word
+        # last_word <- stringr::word(x, 1) %>% gsub(",", "", .) %>% tolower()
+        # # Get rest of words
+        # rest_of_words <- stringr::word(x, start=2, end=nwords) %>% stringr::str_to_sentence()
+        # # Merge
+        # out_name <- paste(rest_of_words, last_word)
       }
 
       # If no comma...
