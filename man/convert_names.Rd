@@ -19,6 +19,6 @@ This function converts fish common names to a common format: regular ("Dungeness
 }
 \examples{
 # Convert common name
-convert_names(names=c("California spiny lobster", "Halibut, Pacific", "Hake"), to="reverse")
-convert_names(names=c("Lobster, California spiny", "Pacific halibut", "Hake", "Crab, rock"), to="regular")
+convert_names(names=c("California spiny lobster", "Halibut, Pacific", "Hake", "Warty sea cucumber"), to="reverse")
+convert_names(names=c("Lobster, California spiny", "Pacific halibut", "Hake", "Crab, rock", "Sea cucumber, warty"), to="regular")
 }
