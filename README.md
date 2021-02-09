@@ -20,6 +20,7 @@ Datasets
 
 The package includes the following West Coast fisheries datasets (listed below):
 
+- Califonia commercial fishing ports: `?ports`
 - California commercial fishing blocks shapefile: `?blocks`
 
 A dataset can be accessed and inspected as in the following example:
