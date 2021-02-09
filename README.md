@@ -18,7 +18,20 @@ library(wcfish)
 Datasets
 ---------
 
-Coming soon.
+The package includes the following West Coast fisheries datasets (listed below):
+
+- California commercial fishing blocks shapefile: `?blocks`
+
+A dataset can be accessed and inspected as in the following example:
+
+``` r
+# See dataset metadata by typing a question mark and the dataset name
+?wcfish::blocks
+
+# Store the dataset in an object of your own choosing as follows:
+blocks_sf <- wcfish::blocks
+```
+
 
 Functions
 ---------
@@ -26,3 +39,6 @@ Functions
 The package implements miscellaneous functions including functions to:
 
 - Check spelling of common names: `?check_names`
+- Reverse the format of common names (i.e., convert "Crab, Dungeness" to "Dungeness crab" and vice versa): `?reverse_names`
+- Convert the format of common names to a common format: `?convert_names`
+- Harmonize common names and scientific names: `?harmonize_names`
