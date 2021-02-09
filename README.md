@@ -41,5 +41,5 @@ The package implements miscellaneous functions including functions to:
 
 - Check spelling of common names: `?check_names`
 - Reverse the format of common names (e.g., "Crab, Dungeness" to "Dungeness crab"): `?reverse_names`
-- Convert common names to a common format (all to "regular" or "reverse" formats): `?convert_names`
+- Convert common names to a common format (i.e., all to "regular" or "reverse" formats): `?convert_names`
 - Harmonize common names and scientific names: `?harmonize_names`
