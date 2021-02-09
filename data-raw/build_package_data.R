@@ -21,7 +21,7 @@ spp_key_orig <- readxl::read_excel("data-raw/california_species_key.xlsx")
 # 1 scientific name per common name
 
 # 1) Check scientific names
-# should only show: Procambarus clarkii, Penaeus californiensis
+# should only show: Cerithium californicum, Procambarus clarkii, Penaeus californiensis
 spp_all <- sort(unique(spp_key_orig$scientific_name))
 spp_check <- spp_all[!grepl("spp", spp_all) & !grepl(",", spp_all)]
 freeR::suggest_names(spp_check)
