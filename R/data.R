@@ -19,23 +19,17 @@
 #' }
 "ports"
 
-#' California's commercial fishing blocks
+#' West Coast commercial fishing blocks
 #'
-#' An 'sf' object (similar to a shapefile) mapping California's commercial fishing blocks.
+#' An 'sf' object (similar to a shapefile) mapping the West Coast's commercial fishing blocks.
 #'
-#' @format An 'sf' object data frame with 557 rows (blocks) and 13 variables (block attributes):
+#' @format An 'sf' object data frame with 836 rows (blocks) and 7 variables (block attributes):
 #' \describe{
+#'   \item{block_state}{State}
+#'   \item{block_type}{Type: inshore, midshore, or offshore}
 #'   \item{block_id}{Block id}
-#'   \item{block_type}{Block type (e.g., inshore, offshore)}
-#'   \item{block_region}{Block region (i.e., Northern, Central)}
-#'   \item{block_area}{Port complex}
-#'   \item{block_district}{District}
-#'   \item{block_ramp}{RAMP zone}
-#'   \item{depth}{Depth zone (i.e., shallower or deeper than 100 fathoms)}
-#'   \item{block_band}{Latitudinal band id}
-#'   \item{bloc_band_lat_dd}{Latitudinal band latitude (°N)}
-#'   \item{block_lat_dd}{Latitude (°N)}
-#'   \item{block_long_dd}{Longitude (°W)}
 #'   \item{block_sqkm}{Area (sq. km)}
+#'   \item{block_lat_dd}{Latitude (°N) of centroid}
+#'   \item{block_long_dd}{Longitude (°W) of centroid}
 #' }
 "blocks"
