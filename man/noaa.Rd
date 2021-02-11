@@ -5,7 +5,20 @@
 \alias{noaa}
 \title{NOAA annual commercial fisheries landings by state and species}
 \format{
-
+A data frame with the following attributes:
+\describe{
+  \item{region}{Region}
+  \item{source}{Data source}
+  \item{state}{State}
+  \item{comm_name_orig}{Common name, as in original data}
+  \item{sci_name_orig}{Scientific name, as in original data}
+  \item{comm_name}{Common name, formatted}
+  \item{level}{Taxonomic resolution (species-level or group-level)}
+  \item{year}{Year (1950-2019)}
+  \item{landings_lb}{Landings in pounds (lb)}
+  \item{value_usd}{Landings in values ($US)}
+  \item{confidentiality}{Confidentiality note}
+}
 }
 \usage{
 noaa

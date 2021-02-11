@@ -42,7 +42,7 @@
 #' \describe{
 #'   \item{region}{Region}
 #'   \item{source}{Data source}
-#'   \item{state}State}
+#'   \item{state}{State}
 #'   \item{comm_name_orig}{Common name, as in original data}
 #'   \item{sci_name_orig}{Scientific name, as in original data}
 #'   \item{comm_name}{Common name, formatted}
@@ -53,3 +53,15 @@
 #'   \item{confidentiality}{Confidentiality note}
 #' }
 "noaa"
+
+#' PACFIN annual commercial fisheries landings by port complex and species
+#'
+#' Annual commercial fisheries landings (pounds/value) by port complex (CA/OR/WA) and species from 1980-2020 from the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{year}{Year}
+#'   \item{state}{State}
+#'   \item{......}{More coming soon}
+#' }
+"pacfin_all6"
