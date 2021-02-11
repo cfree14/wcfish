@@ -11,6 +11,6 @@
 noaa
 }
 \description{
-An 'sf' object (similar to a shapefile) mapping the West Coast's commercial fishing blocks.
+Annual commercial fisheries landings (pounds/value) by U.S. state and species from 1950-2019 from NOAA's FOSS database.
 }
 \keyword{datasets}

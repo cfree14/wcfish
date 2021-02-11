@@ -36,9 +36,9 @@
 
 #' NOAA annual commercial fisheries landings by state and species
 #'
-#' An 'sf' object (similar to a shapefile) mapping the West Coast's commercial fishing blocks.
+#' Annual commercial fisheries landings (pounds/value) by U.S. state and species from 1950-2019 from NOAA's FOSS database.
 #'
-#' @format An 'sf' object data frame with 836 rows (blocks) and 7 variables (block attributes):
+#' @format A data frame with the following attributes:
 #' \describe{
 #'   \item{region}{Region}
 #'   \item{source}{Data source}
@@ -51,5 +51,5 @@
 #'   \item{landings_lb}{Landings in pounds (lb)}
 #'   \item{value_usd}{Landings in values ($US)}
 #'   \item{confidentiality}{Confidentiality note}
-##' }
+#' }
 "noaa"
