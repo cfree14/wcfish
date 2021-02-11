@@ -33,3 +33,23 @@
 #'   \item{block_long_dd}{Longitude (°W) of centroid}
 #' }
 "blocks"
+
+#' NOAA annual commercial fisheries landings by state and species
+#'
+#' An 'sf' object (similar to a shapefile) mapping the West Coast's commercial fishing blocks.
+#'
+#' @format An 'sf' object data frame with 836 rows (blocks) and 7 variables (block attributes):
+#' \describe{
+#'   \item{region}{Region}
+#'   \item{source}{Data source}
+#'   \item{state}State}
+#'   \item{comm_name_orig}{Common name, as in original data}
+#'   \item{sci_name_orig}{Scientific name, as in original data}
+#'   \item{comm_name}{Common name, formatted}
+#'   \item{level}{Taxonomic resolution (species-level or group-level)}
+#'   \item{year}{Year (1950-2019)}
+#'   \item{landings_lb}{Landings in pounds (lb)}
+#'   \item{value_usd}{Landings in values ($US)}
+#'   \item{confidentiality}{Confidentiality note}
+##' }
+"noaa"
