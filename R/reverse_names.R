@@ -44,7 +44,7 @@ reverse_names <- function(names){
         # Get last word
         last_word <- stringr::word(x, -1) %>% stringr::str_to_title(.)
         # Get rest of words
-        rest_of_words <- stringr::word(x, start=1, end=nwords-1)
+        rest_of_words <- stringr::word(x, start=1, end=nwords-1) %>% tolower()
         # Merge
         out_name <- paste0(last_word, ", ", rest_of_words)
       }
@@ -54,6 +54,12 @@ reverse_names <- function(names){
       out_name <- x
 
     }
+
+    # Capitalize common proper nouns
+    out_name <- gsub("pacific", "Pacific", out_name)
+    out_name <- gsub("atlantic", "Atlantic", out_name)
+    out_name <- gsub("california", "California", out_name)
+    out_name <- gsub("dungeness", "Dungeness", out_name)
 
     # Return
     out_name
