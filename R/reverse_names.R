@@ -60,6 +60,14 @@ reverse_names <- function(names){
     out_name <- gsub("atlantic", "Atlantic", out_name)
     out_name <- gsub("california", "California", out_name)
     out_name <- gsub("dungeness", "Dungeness", out_name)
+    out_name <- gsub("dover", "Dover", out_name)
+    out_name <- gsub("english", "English", out_name)
+    out_name <- gsub("japanese", "Japanese", out_name)
+    out_name <- gsub("sacramento", "Sacramento", out_name)
+    out_name <- gsub("washington", "Washington", out_name)
+    out_name <- gsub("kumamoto", "Kumamoto", out_name)
+    out_name <- gsub("spanish", "Spanish", out_name)
+
 
     # Return
     out_name
