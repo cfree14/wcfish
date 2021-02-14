@@ -43,3 +43,9 @@ The package implements miscellaneous functions including functions to:
 - Reverse the format of common names (e.g., "Crab, Dungeness" to "Dungeness crab"): `?reverse_names`
 - Convert common names to a common format (i.e., all to "regular" or "reverse" formats): `?convert_names`
 - Harmonize common names and scientific names: `?harmonize_names`
+
+
+Citation
+---------
+
+Free CM, Bellquist LF, Vargas Poulsen C. The CALFISH database: open-sourcing California’s non-confidential historical fisheries landings and participation data. Near submission.
