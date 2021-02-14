@@ -67,7 +67,7 @@ reverse_names <- function(names){
     out_name <- gsub("washington", "Washington", out_name)
     out_name <- gsub("kumamoto", "Kumamoto", out_name)
     out_name <- gsub("spanish", "Spanish", out_name)
-
+    out_name <- gsub("mexican", "Mexican", out_name)
 
     # Return
     out_name
