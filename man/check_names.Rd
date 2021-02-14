@@ -19,5 +19,5 @@ This function checks the spelling of common names for West Coast fish species. I
 }
 \examples{
 # Suggest spelling corrections for common names
-check_names(names=c("Pacific codd", "CA spiny lobster", "Dungeness crab"), return=2)
+check_names(names=c("Pacific codd", "CA spiny lobster", "Dungeness crab", "Crab, Dungness"), return=2)
 }
