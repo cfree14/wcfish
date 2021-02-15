@@ -65,3 +65,15 @@
 #'   \item{......}{More coming soon}
 #' }
 "pacfin_all6"
+
+#' CDFW annual commercial fisheries landings by waters and species
+#'
+#' Annual California commercial fisheries landings and shipments (pounds) by waters and species from 1936-2019.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{year}{Year}
+#'   \item{state}{State}
+#'   \item{......}{More coming soon}
+#' }
+"cdfw_waters"
