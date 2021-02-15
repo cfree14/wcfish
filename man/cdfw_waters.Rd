@@ -7,8 +7,16 @@
 \format{
 A data frame with the following attributes:
 \describe{
+  \item{source}{Source of data}
+  \item{table}{Table containing data in source}
   \item{year}{Year}
-  \item{......}{More coming soon}
+  \item{waters}{Waters (e.g., California, north-of-state, south-of-state, etc.)}
+  \item{comm_name_orig}{Common name, as in original data}
+  \item{comm_name}{Common name, harmonized across years and datasets}
+  \item{sci_name}{Scientific name}
+  \item{presentation}{Presentation (i.e., roe, roe on kelp, claws)}
+  \item{landings_lb}{Landings in pounds}
+  \item{landings_kg}{Landings in kilograms}
 }
 }
 \usage{
