@@ -5,7 +5,7 @@
 \alias{ports}
 \title{California's commercial fishing ports}
 \format{
-A data frame with 143 rows (ports) and 11 variables (port attributes):
+A data frame with the following attributes::
 \describe{
   \item{state}{State}
   \item{port_complex_orig}{Port complex(s) used in the original data}
