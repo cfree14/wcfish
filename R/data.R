@@ -1,9 +1,27 @@
 
+#' West Coast fisheries species information
+#'
+#' Taxonomic information for West Coast fisheries species.
+#'
+#' @format A data frame with the following attributes::
+#' \describe{
+#'   \item{comm_name}{Common name}
+#'   \item{scientific_name}{Scientific name}
+#'   \item{type}{Type (e.g., fish, crustacean, mollusk, other invertebrate)}
+#'   \item{taxa_group}{Taxonomic group}
+#'   \item{phylum}{Phylum}
+#'   \item{class}{Class}
+#'   \item{order}{Order}
+#'   \item{family}{Family}
+#'   \item{genus}{Genus}
+#' }
+"taxa"
+
 #' California's commercial fishing ports
 #'
 #' Identity and location of California's commercial fishing ports.
 #'
-#' @format A data frame with 143 rows (ports) and 11 variables (port attributes):
+#' @format A data frame with the following attributes::
 #' \describe{
 #'   \item{state}{State}
 #'   \item{port_complex_orig}{Port complex(s) used in the original data}
