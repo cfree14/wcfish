@@ -128,8 +128,6 @@
 #' }
 "cdfw_ports"
 
-
-
 #' CDFW annual number of licensed commercial fishers
 #'
 #' Annual number of licensed commercial fishers in California from 1916-2020 with information by area of residence from 1935-1976.
