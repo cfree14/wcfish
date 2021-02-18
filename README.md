@@ -21,6 +21,7 @@ Datasets
 The package includes the following West Coast fisheries datasets (listed below):
 
 __CDFW datasets__
+- California commercial fisheries species: `?taxa`
 - California commercial fishing ports: `?ports`
 - California commercial fishing blocks shapefile: `?blocks`
 - Annual commercial landings by source and species: `?cdfw_waters`
@@ -31,7 +32,6 @@ __CDFW datasets__
 - Annual number of registered commercial fishing vessels: `?cdfw_n_comm_vessels`
 - Annual CPFV landings by port complex and species: `?cdfw_cpfv`
 - Annual CPFV participation and effort by port complex and species: `?cdfw_cpfv_effort`
-
 
 A dataset can be accessed and inspected as in the following example:
 
