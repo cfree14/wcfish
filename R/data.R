@@ -127,3 +127,65 @@
 #'   \item{landings_kg}{Landings in kilograms}
 #' }
 "cdfw_ports"
+
+
+
+#' CDFW annual number of licensed commercial fishers
+#'
+#' Annual number of licensed commercial fishers in California from 1916-2020 with information by area of residence from 1935-1976.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{...}{Descriptions coming soon}
+#' }
+"cdfw_n_comm_fishers"
+
+#' CDFW annual number of registered commercial fishing vessels
+#'
+#' Annual number of registered commercial fishing vessels in California from 1934-2020.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{...}{Descriptions coming soon}
+#' }
+"cdfw_n_comm_vessels"
+
+#' CDFW annual number of registered commercial fishing vessels by length class
+#'
+#' Annual number of registered commercial fishing vessels in California by length class from 1934-1956.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{...}{Descriptions coming soon}
+#' }
+"cdfw_n_comm_vessels_length"
+
+#' CDFW annual number of registered commercial fishing vessels by port complex
+#'
+#' Annual number of registered commercial fishing vessels in California by port complex from 1934-1976.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{...}{Descriptions coming soon}
+#' }
+"cdfw_n_comm_vessels_port"
+
+#' CDFW annual landings from Commercial Passenger Fishing Vessels
+#'
+#' Annual landings from Commercial Passenger Fishing Vessels (CPFVs) in California from 1936-2019.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{...}{Descriptions coming soon}
+#' }
+"cdfw_cpfv"
+
+#' CDFW annual participation in and effort by Commercial Passenger Fishing Vessels
+#'
+#' Annual participation in and effort by from Commercial Passenger Fishing Vessels (CPFVs) in California from 1936-2019.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{...}{Descriptions coming soon}
+#' }
+"cdfw_cpfv_effort"
