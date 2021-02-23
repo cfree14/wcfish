@@ -25,7 +25,7 @@ __Coastwide datasets__
 - West Coast commercial fishing ports: `?ports`
 - West Coast commercial fishing blocks shapefile: `?blocks`
 
-__CDFW datasets__
+__California (CDFW) datasets__
 - Annual commercial landings by source and species: `?cdfw_waters`
 - Annual commercial landings by port and species: `?cdfw_port`
 - Annual number of licensed commercial fishers by area of residence: `?cdfw_n_comm_fishers`
