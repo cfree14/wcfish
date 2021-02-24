@@ -20,9 +20,12 @@ Datasets
 
 The package includes the following West Coast fisheries datasets (listed below):
 
-__CDFW datasets__
-- California commercial fishing ports: `?ports`
-- California commercial fishing blocks shapefile: `?blocks`
+__Coastwide datasets__
+- West Coast commercial fisheries species: `?taxa`
+- West Coast commercial fishing ports: `?ports`
+- West Coast commercial fishing blocks shapefile: `?blocks`
+
+__California (CDFW) datasets__
 - Annual commercial landings by source and species: `?cdfw_waters`
 - Annual commercial landings by port and species: `?cdfw_port`
 - Annual number of licensed commercial fishers by area of residence: `?cdfw_n_comm_fishers`
@@ -31,7 +34,6 @@ __CDFW datasets__
 - Annual number of registered commercial fishing vessels: `?cdfw_n_comm_vessels`
 - Annual CPFV landings by port complex and species: `?cdfw_cpfv`
 - Annual CPFV participation and effort by port complex and species: `?cdfw_cpfv_effort`
-
 
 A dataset can be accessed and inspected as in the following example:
 
@@ -58,4 +60,4 @@ The package implements miscellaneous functions including functions to:
 Citation
 ---------
 
-Free CM, Bellquist LF, Vargas Poulsen C (2021) The CALFISH database: open-sourcing a century of California’s non-confidential historical fisheries landings and participation data. _Near submission_.
+Free CM, Vargas Poulsen C, Bellquist LF (2021) The CALFISH database: open-sourcing a century of California’s non-confidential historical fisheries landings and participation data. _Near submission_.
