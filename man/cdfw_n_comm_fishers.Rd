@@ -3,7 +3,7 @@
 \docType{data}
 \name{cdfw_n_comm_fishers}
 \alias{cdfw_n_comm_fishers}
-\title{CDFW annual number of licensed commercial fishers}
+\title{}
 \format{
 A data frame with the following attributes:
 \describe{

@@ -1,4 +1,8 @@
 
+################################################################################
+# Meta-data
+################################################################################
+
 #' West Coast fisheries species information
 #'
 #' Taxonomic information for West Coast fisheries species.
@@ -52,37 +56,9 @@
 #' }
 "blocks"
 
-#' NOAA annual commercial fisheries landings by state and species
-#'
-#' Annual commercial fisheries landings (pounds/value) by U.S. state and species from 1950-2019 from NOAA's FOSS database.
-#'
-#' @format A data frame with the following attributes:
-#' \describe{
-#'   \item{region}{Region}
-#'   \item{source}{Data source}
-#'   \item{state}{State}
-#'   \item{comm_name_orig}{Common name, as in original data}
-#'   \item{sci_name_orig}{Scientific name, as in original data}
-#'   \item{comm_name}{Common name, formatted}
-#'   \item{level}{Taxonomic resolution (species-level or group-level)}
-#'   \item{year}{Year (1950-2019)}
-#'   \item{landings_lb}{Landings in pounds (lb)}
-#'   \item{value_usd}{Landings in values ($US)}
-#'   \item{confidentiality}{Confidentiality note}
-#' }
-"noaa"
-
-#' PACFIN annual commercial fisheries landings by port complex and species
-#'
-#' Annual commercial fisheries landings (pounds/value) by port complex (CA/OR/WA) and species from 1980-2020 from the PACFIN database.
-#'
-#' @format A data frame with the following attributes:
-#' \describe{
-#'   \item{year}{Year}
-#'   \item{state}{State}
-#'   \item{......}{More coming soon}
-#' }
-"pacfin_all6"
+################################################################################
+# CDFW commercial landings
+################################################################################
 
 #' CDFW annual commercial fisheries landings by waters and species
 #'
@@ -126,6 +102,40 @@
 #'   \item{landings_kg}{Landings/shipments in kilograms (kg)}
 #' }
 "cdfw_ports"
+
+#' CDFW annual harvest of kelp by bed type
+#'
+#' Annual harvest of kelp (Macrocystis spp.) by bed type (open vs. leased) from 1916-1976. Harvest is reported in "short" tons (2000 lbs).
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{source}{Source (Fish Bulletin or CDFW report)}
+#'   \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+#'   \item{year}{Year}
+#'   \item{open_bed_t}{Harvest (short tons) from open beds}
+#'   \item{leased_bed_t}Harvest (short tons) from leased beds}
+#'   \item{total_bed_t}{Total harvest (short tons) - sum of open and leased harvest}
+#' }
+"cdfw_kelp"
+
+#' #' CDFW annual harvest of kelp
+#' #'
+#' #' Annual harvest of kelp (Macrocystis spp.) from 1916-2019.
+#' #'
+#' #' @format A data frame with the following attributes:
+#' #' \describe{
+#' #'   \item{source}{Source (Fish Bulletin or CDFW report)}
+#' #'   \item{year}{Year}
+#' #'   \item{type}{Reported or estimated using DataThief}
+#' #'   \item{harvest_t}{Total harvest in short tons (t)),
+#' #'   \item{harvest_mt}{Total harvest in metric tons (mt)}
+#' #' }
+#' "cdfw_kelp_tots"
+
+
+################################################################################
+# CDFW commercial participation
+################################################################################
 
 #' CDFW annual number of licensed commercial fishers
 #'
@@ -195,6 +205,10 @@
 #' }
 "cdfw_n_comm_vessels_port"
 
+################################################################################
+# CDFW CPFV data
+################################################################################
+
 #' CDFW annual landings from Commercial Passenger Fishing Vessels
 #'
 #' Annual landings from Commercial Passenger Fishing Vessels (CPFVs) in California from 1936-2019.
@@ -237,6 +251,43 @@
 #' }
 "cdfw_cpfv_effort"
 
+
+
+################################################################################
+# Other sources of data
+################################################################################
+
+#' NOAA annual commercial fisheries landings by state and species
+#'
+#' Annual commercial fisheries landings (pounds/value) by U.S. state and species from 1950-2019 from NOAA's FOSS database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{region}{Region}
+#'   \item{source}{Data source}
+#'   \item{state}{State}
+#'   \item{comm_name_orig}{Common name, as in original data}
+#'   \item{sci_name_orig}{Scientific name, as in original data}
+#'   \item{comm_name}{Common name, formatted}
+#'   \item{level}{Taxonomic resolution (species-level or group-level)}
+#'   \item{year}{Year (1950-2019)}
+#'   \item{landings_lb}{Landings in pounds (lb)}
+#'   \item{value_usd}{Landings in values ($US)}
+#'   \item{confidentiality}{Confidentiality note}
+#' }
+"noaa"
+
+#' PACFIN annual commercial fisheries landings by port complex and species
+#'
+#' Annual commercial fisheries landings (pounds/value) by port complex (CA/OR/WA) and species from 1980-2020 from the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{year}{Year}
+#'   \item{state}{State}
+#'   \item{......}{More coming soon}
+#' }
+"pacfin_all6"
 
 #' CALCOM annual groundfish landings by port complex, gear type, and species
 #'
