@@ -35,6 +35,11 @@ __California (CDFW) datasets__
 - Annual CPFV landings by port complex and species: `?cdfw_cpfv`
 - Annual CPFV participation and effort by port complex and species: `?cdfw_cpfv_effort`
 
+__Other West Coast fisheries datasets__
+- Annual commercial landings by state (CA/OR/WA), port complex, and species from PACFIN: `?pacfin_all06`
+- Monthly commercial landings in CA by port complex and species from the SWFCC: `?swfsc`
+- Annual commercial landings in CA by port complex, gear type, and species from the CALCOM: `?calcom`
+
 A dataset can be accessed and inspected as in the following example:
 
 ``` r
