@@ -10,6 +10,7 @@ A data frame with the following attributes:
   \item{dataset}{Dataset}
   \item{year}{Year}
   \item{month}{Month}
+  \item{month_num}{Month number}
   \item{date_dummy}{Date - first of the month}
   \item{port_complex}{Port complex}
   \item{comm_name_orig}{Common name, as in the original data}
