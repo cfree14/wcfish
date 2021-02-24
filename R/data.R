@@ -238,7 +238,7 @@
 "cdfw_cpfv_effort"
 
 
-#' CALCOM annual groundfish landings by port complex and gear type
+#' CALCOM annual groundfish landings by port complex, gear type, and species
 #'
 #' Annual landings of California groundfish by port complex, gear type, and species from 1978-2019 based on the CALCOM database.
 #'
@@ -259,7 +259,7 @@
 #' }
 "calcom"
 
-#' SWFSC
+#' SWFSC monthly landings from California waters by port complex and species
 #'
 #' Monthly landings from California waters by port complex and species from 1928-2002 based on the Mason et al. (2004) digitization effort.
 #'

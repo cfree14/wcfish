@@ -3,7 +3,7 @@
 \docType{data}
 \name{calcom}
 \alias{calcom}
-\title{CALCOM annual groundfish landings by port complex and gear type}
+\title{CALCOM annual groundfish landings by port complex, gear type, and species}
 \format{
 A data frame with the following attributes:
 \describe{

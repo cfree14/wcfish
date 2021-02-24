@@ -3,7 +3,7 @@
 \docType{data}
 \name{swfsc}
 \alias{swfsc}
-\title{SWFSC}
+\title{SWFSC monthly landings from California waters by port complex and species}
 \format{
 A data frame with the following attributes:
 \describe{
