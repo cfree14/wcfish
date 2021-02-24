@@ -236,3 +236,44 @@
 #'   \item{hours_n}{Number of hours fished by CPFV anglers}
 #' }
 "cdfw_cpfv_effort"
+
+
+#' CALCOM annual groundfish landings by port complex and gear type
+#'
+#' Annual landings of California groundfish by port complex, gear type, and species from 1978-2019 based on the CALCOM database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{market_group}{Species market category (e.g., rockfish, flatfish, elasmobranch, etc.)}
+#'   \item{species_code}{Species code}
+#'   \item{common_name}{Species common name}
+#'   \item{scientific_name}{Species scientific name}
+#'   \item{port_complex_code}{Port complex code}
+#'   \item{port_complex}{Port complex}
+#'   \item{gear_code}{Gear type code}
+#'   \item{gear}{Gear type (e.g., hook and line, net, traps, trawl, etc.)}
+#'   \item{year}{Year}
+#'   \item{source}{Source}
+#'   \item{live_yn}{Live (yes or no)}
+#'   \item{landings_lb}{Landings volume in pounds (lb)}
+#' }
+"calcom"
+
+#' SWFSC
+#'
+#' Monthly landings from California waters by port complex and species from 1928-2002 based on the Mason et al. (2004) digitization effort.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{dataset}{Dataset}
+#'   \item{port_complex}{Port complex}
+#'   \item{year}{Year}
+#'   \item{comm_name_orig}{Common name, as in the original data}
+#'   \item{sci_name}{Scientific name}
+#'   \item{level}{Taxonomic resolution (species- or group-specific)}
+#'   \item{presentation}{Presentation (a.k.a., condition) of the landings (i.e., roe, roe on kelp, claws, not specified)}
+#'   \item{landings_lb}{Landings in pounds (lbs)}
+#'   \item{landings_kg}{Landings in kilograms (kg)}
+#' }
+"swfsc"
+
