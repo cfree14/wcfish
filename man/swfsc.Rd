@@ -8,12 +8,11 @@
 A data frame with the following attributes:
 \describe{
   \item{dataset}{Dataset}
-  \item{port_complex}{Port complex}
   \item{year}{Year}
+  \item{month}{Month}
+  \item{date_dummy}{Date - first of the month}
+  \item{port_complex}{Port complex}
   \item{comm_name_orig}{Common name, as in the original data}
-  \item{sci_name}{Scientific name}
-  \item{level}{Taxonomic resolution (species- or group-specific)}
-  \item{presentation}{Presentation (a.k.a., condition) of the landings (i.e., roe, roe on kelp, claws, not specified)}
   \item{landings_lb}{Landings in pounds (lbs)}
   \item{landings_kg}{Landings in kilograms (kg)}
 }
