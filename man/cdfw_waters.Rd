@@ -7,7 +7,7 @@
 \format{
 A data frame with the following attributes:
 \describe{
-  \item{source}{Source of data}
+  \item{source}{Source (Fish Bulletin or CDFW report)}
   \item{table}{Table containing data in source}
   \item{year}{Year}
   \item{waters}{Waters (e.g., California, north-of-state, south-of-state, etc.)}

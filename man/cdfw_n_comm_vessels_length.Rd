@@ -7,7 +7,17 @@
 \format{
 A data frame with the following attributes:
 \describe{
-  \item{...}{Descriptions coming soon}
+  \item{source}{Source (Fish Bulletin or CDFW report)}
+  \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+  \item{season}{License year, April 1st to March 31st}
+  \item{year}{Year}
+  \item{region_type}{Region type (by port complex or statewide)}
+  \item{region}{Region name (port complex name or "statewide")}
+  \item{length_class_system}{5-class, 6-class, or 36-class system}
+  \item{length_class_group}{Length class group (ft), using the 5-class system}
+  \item{length_class}{Length class (ft)}
+  \item{length_class_floor}{Lower limit of the length class (ft)}
+  \item{nvessels}{Number of registered commercial fishing vessels}
 }
 }
 \usage{

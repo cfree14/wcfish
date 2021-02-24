@@ -17,21 +17,21 @@
 #' }
 "taxa"
 
-#' California's commercial fishing ports
+#' West Coast commercial fishing ports
 #'
-#' Identity and location of California's commercial fishing ports.
+#' Identity and location of the West Coast's commercial fishing ports.
 #'
 #' @format A data frame with the following attributes::
 #' \describe{
 #'   \item{state}{State}
-#'   \item{port_complex_orig}{Port complex(s) used in the original data}
+#'   \item{port_complex_orig}{Port complex, in original data}
 #'   \item{port_complex1}{Port complex, 1987-2019 typologogy}
 #'   \item{port_complex2}{Port complex, 1936-1986 typologogy}
 #'   \item{port_complex3}{Port complex, 1931-1935 typologogy}
 #'   \item{port_complex4}{Port complex, 1926-1930 typologogy}
 #'   \item{county}{County}
 #'   \item{port}{Port name}
-#'   \item{type}{Individual port or group of ports}
+#'   \item{type}{Port type (individual port or composite of ports)}
 #'   \item{lat_dd}{Latitude (°N)}
 #'   \item{long_dd}{Longitude (°W)}
 #' }
@@ -43,10 +43,10 @@
 #'
 #' @format An 'sf' object data frame with 836 rows (blocks) and 7 variables (block attributes):
 #' \describe{
-#'   \item{block_state}{State}
-#'   \item{block_type}{Type: inshore, midshore, or offshore}
+#'   \item{block_state}{Block state (California, Oregon, or Washington)}
+#'   \item{block_type}{Block type (inshore, midshore, offshore)}
 #'   \item{block_id}{Block id}
-#'   \item{block_sqkm}{Area (sq. km)}
+#'   \item{block_sqkm}{Block area (sq. km)}
 #'   \item{block_lat_dd}{Latitude (°N) of centroid}
 #'   \item{block_long_dd}{Longitude (°W) of centroid}
 #' }
@@ -90,7 +90,7 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{source}{Source of data}
+#'   \item{source}{Source (Fish Bulletin or CDFW report)}
 #'   \item{table}{Table containing data in source}
 #'   \item{year}{Year}
 #'   \item{waters}{Waters (e.g., California, north-of-state, south-of-state, etc.)}
@@ -109,22 +109,21 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{source_type}{Fish Bulletin or CDFW website}
-#'   \item{source}{Source of data}
-#'   \item{table}{Table containing data in source}
-#'   \item{port_complex}{Port complex, based on the most recept typology}
-#'   \item{port_complex_orig}{Port complex, as in original data}
-#'   \item{port}{Port name, harmonized across years}
-#'   \item{port_orig}{Port name, as in original data}
+#'   \item{source}{Source (Fish Bulletin or CDFW report)}
+#'   \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+#'   \item{port_complex}{Port complex, 1987-2019 typology}
+#'   \item{port_complex_orig}{Port complex, as in the original data}
+#'   \item{port}{Port name, harmonized across year and datasets}
+#'   \item{port_orig}{Port name, as in the original data}
 #'   \item{type}{Landings or shipments}
 #'   \item{year}{Year}
-#'   \item{comm_name}{Common name, harmonized across years and datasets}
-#'   \item{comm_name_orig}{Common name, as in original data}
-#'   \item{sci_name}{Scientific name}
-#'   \item{presentation}{Presentation (i.e., roe, roe on kelp, claws)}
-#'   \item{value_used}{Ex-vessel value (US dollars)}
-#'   \item{landings_lb}{Landings in pounds}
-#'   \item{landings_kg}{Landings in kilograms}
+#'   \item{comm_name}{Species common name, harmonized across years and datasets}
+#'   \item{comm_name_orig}{Species common name, as in the original data}
+#'   \item{sci_name}{Species scientific name}
+#'   \item{presentation}{Presentation (a.k.a., condition) of the landings (i.e., roe, roe on kelp, claws, not specified)}
+#'   \item{value_used}{Landings/shipments in value (USD)}
+#'   \item{landings_lb}{Landings/shipments in pounds (lb)}
+#'   \item{landings_kg}{Landings/shipments in kilograms (kg)}
 #' }
 "cdfw_ports"
 
@@ -134,7 +133,16 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{...}{Descriptions coming soon}
+#'   \item{source}{Source (Fish Bulletin or CDFW report)}
+#'   \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+#'   \item{season}{License year, April 1st to March 31st}
+#'   \item{year}{Year}
+#'   \item{region_type}{Scale of regional information (statewide or area-of-residence)}
+#'   \item{region_group}{Region group (other categories grouped together)}
+#'   \item{region}{Region (statewide or name or port complex)}
+#'   \item{nfishers}{Total number of licensed commercial fishers}
+#'   \item{nfishers_nr}{Number of non-resident licensed commercial fishers}
+#'   \item{nfishers_r}{Number of resident licensed commercial fishers}
 #' }
 "cdfw_n_comm_fishers"
 
@@ -144,7 +152,11 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{...}{Descriptions coming soon}
+#'   \item{source}{Source (Fish Bulletin or CDFW report)}
+#'   \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+#'   \item{season}{License year, April 1st to March 31st}
+#'   \item{year}{Year}
+#'   \item{nvessels}{Number of registered commercial fishing vessels}
 #' }
 "cdfw_n_comm_vessels"
 
@@ -154,7 +166,17 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{...}{Descriptions coming soon}
+#'   \item{source}{Source (Fish Bulletin or CDFW report)}
+#'   \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+#'   \item{season}{License year, April 1st to March 31st}
+#'   \item{year}{Year}
+#'   \item{region_type}{Region type (by port complex or statewide)}
+#'   \item{region}{Region name (port complex name or "statewide")}
+#'   \item{length_class_system}{5-class, 6-class, or 36-class system}
+#'   \item{length_class_group}{Length class group (ft), using the 5-class system}
+#'   \item{length_class}{Length class (ft)}
+#'   \item{length_class_floor}{Lower limit of the length class (ft)}
+#'   \item{nvessels}{Number of registered commercial fishing vessels}
 #' }
 "cdfw_n_comm_vessels_length"
 
@@ -164,7 +186,12 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{...}{Descriptions coming soon}
+#'   \item{source}{Source (Fish Bulletin or CDFW report)}
+#'   \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+#'   \item{season}{License year, April 1st to March 31st}
+#'   \item{year}{Year}
+#'   \item{port_complex}{Port complex (e.g., San Francisco, Monterey, etc.)}
+#'   \item{nvessels}{Number of registered commercial fishing vessels}
 #' }
 "cdfw_n_comm_vessels_port"
 
@@ -174,7 +201,17 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{...}{Descriptions coming soon}
+#'   \item{...}{Source (Fish Bulletin or CDFW report)}
+#'   \item{...}{Table number (e.g., Table 4, Table 5, etc.)}
+#'   \item{...}{Regional scale (statewide or northern/southern)}
+#'   \item{...}{Port complex, 1987-2019 typology}
+#'   \item{...}{Port sub-complex, as in the original data}
+#'   \item{...}{Year}
+#'   \item{...}{Species category (e.g., HMS, rockfish, roundfish, flatfish, etc.)}
+#'   \item{...}{Species common name, as in the original data}
+#'   \item{...}{Species common name, harmonized across datasets}
+#'   \item{...}{Species scientific name}
+#'   \item{...}{Landings in number of fish}
 #' }
 "cdfw_cpfv"
 
@@ -184,6 +221,18 @@
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
-#'   \item{...}{Descriptions coming soon}
+#'   \item{source_landings}{Source and table for landings data}
+#'   \item{source_cpfvs}{Source and table for registered vessel data}
+#'   \item{source_anglers}{Source and table for licensed angler data}
+#'   \item{source_time}{Source and table for angler effort data}
+#'   \item{region}{Regional scale (statewide or northern/southern)}
+#'   \item{port_complex_group}{Port complex, 1987-2019 typology}
+#'   \item{port_complex}{Port sub-complex, as in the original data}
+#'   \item{year}{Year}
+#'   \item{landings_n}{Number of landed fish}
+#'   \item{cpfvs_n}{Number of registered CPFVs}
+#'   \item{anglers_n}{Number of CPFV anglers}
+#'   \item{days_n}{Number of days fished by CPFV anglers}
+#'   \item{hours_n}{Number of hours fished by CPFV anglers}
 #' }
 "cdfw_cpfv_effort"

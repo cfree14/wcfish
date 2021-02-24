@@ -7,7 +7,17 @@
 \format{
 A data frame with the following attributes:
 \describe{
-  \item{...}{Descriptions coming soon}
+  \item{...}{Source (Fish Bulletin or CDFW report)}
+  \item{...}{Table number (e.g., Table 4, Table 5, etc.)}
+  \item{...}{Regional scale (statewide or northern/southern)}
+  \item{...}{Port complex, 1987-2019 typology}
+  \item{...}{Port sub-complex, as in the original data}
+  \item{...}{Year}
+  \item{...}{Species category (e.g., HMS, rockfish, roundfish, flatfish, etc.)}
+  \item{...}{Species common name, as in the original data}
+  \item{...}{Species common name, harmonized across datasets}
+  \item{...}{Species scientific name}
+  \item{...}{Landings in number of fish}
 }
 }
 \usage{

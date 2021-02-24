@@ -7,22 +7,21 @@
 \format{
 A data frame with the following attributes:
 \describe{
-  \item{source_type}{Fish Bulletin or CDFW website}
-  \item{source}{Source of data}
-  \item{table}{Table containing data in source}
-  \item{port_complex}{Port complex, based on the most recept typology}
-  \item{port_complex_orig}{Port complex, as in original data}
-  \item{port}{Port name, harmonized across years}
-  \item{port_orig}{Port name, as in original data}
+  \item{source}{Source (Fish Bulletin or CDFW report)}
+  \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+  \item{port_complex}{Port complex, 1987-2019 typology}
+  \item{port_complex_orig}{Port complex, as in the original data}
+  \item{port}{Port name, harmonized across year and datasets}
+  \item{port_orig}{Port name, as in the original data}
   \item{type}{Landings or shipments}
   \item{year}{Year}
-  \item{comm_name}{Common name, harmonized across years and datasets}
-  \item{comm_name_orig}{Common name, as in original data}
-  \item{sci_name}{Scientific name}
-  \item{presentation}{Presentation (i.e., roe, roe on kelp, claws)}
-  \item{value_used}{Ex-vessel value (US dollars)}
-  \item{landings_lb}{Landings in pounds}
-  \item{landings_kg}{Landings in kilograms}
+  \item{comm_name}{Species common name, harmonized across years and datasets}
+  \item{comm_name_orig}{Species common name, as in the original data}
+  \item{sci_name}{Species scientific name}
+  \item{presentation}{Presentation (a.k.a., condition) of the landings (i.e., roe, roe on kelp, claws, not specified)}
+  \item{value_used}{Landings/shipments in value (USD)}
+  \item{landings_lb}{Landings/shipments in pounds (lb)}
+  \item{landings_kg}{Landings/shipments in kilograms (kg)}
 }
 }
 \usage{

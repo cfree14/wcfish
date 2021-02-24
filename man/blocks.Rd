@@ -7,10 +7,10 @@
 \format{
 An 'sf' object data frame with 836 rows (blocks) and 7 variables (block attributes):
 \describe{
-  \item{block_state}{State}
-  \item{block_type}{Type: inshore, midshore, or offshore}
+  \item{block_state}{Block state (California, Oregon, or Washington)}
+  \item{block_type}{Block type (inshore, midshore, offshore)}
   \item{block_id}{Block id}
-  \item{block_sqkm}{Area (sq. km)}
+  \item{block_sqkm}{Block area (sq. km)}
   \item{block_lat_dd}{Latitude (°N) of centroid}
   \item{block_long_dd}{Longitude (°W) of centroid}
 }

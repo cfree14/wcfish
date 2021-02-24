@@ -7,7 +7,16 @@
 \format{
 A data frame with the following attributes:
 \describe{
-  \item{...}{Descriptions coming soon}
+  \item{source}{Source (Fish Bulletin or CDFW report)}
+  \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+  \item{season}{License year, April 1st to March 31st}
+  \item{year}{Year}
+  \item{region_type}{Scale of regional information (statewide or area-of-residence)}
+  \item{region_group}{Region group (other categories grouped together)}
+  \item{region}{Region (statewide or name or port complex)}
+  \item{nfishers}{Total number of licensed commercial fishers}
+  \item{nfishers_nr}{Number of non-resident licensed commercial fishers}
+  \item{nfishers_r}{Number of resident licensed commercial fishers}
 }
 }
 \usage{

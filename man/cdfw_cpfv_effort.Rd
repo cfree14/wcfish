@@ -7,7 +7,19 @@
 \format{
 A data frame with the following attributes:
 \describe{
-  \item{...}{Descriptions coming soon}
+  \item{source_landings}{Source and table for landings data}
+  \item{source_cpfvs}{Source and table for registered vessel data}
+  \item{source_anglers}{Source and table for licensed angler data}
+  \item{source_time}{Source and table for angler effort data}
+  \item{region}{Regional scale (statewide or northern/southern)}
+  \item{port_complex_group}{Port complex, 1987-2019 typology}
+  \item{port_complex}{Port sub-complex, as in the original data}
+  \item{year}{Year}
+  \item{landings_n}{Number of landed fish}
+  \item{cpfvs_n}{Number of registered CPFVs}
+  \item{anglers_n}{Number of CPFV anglers}
+  \item{days_n}{Number of days fished by CPFV anglers}
+  \item{hours_n}{Number of hours fished by CPFV anglers}
 }
 }
 \usage{
