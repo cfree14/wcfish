@@ -34,6 +34,8 @@ __California (CDFW) datasets__
 - Annual number of registered commercial fishing vessels: `?cdfw_n_comm_vessels`
 - Annual CPFV landings by port complex and species: `?cdfw_cpfv`
 - Annual CPFV participation and effort by port complex and species: `?cdfw_cpfv_effort`
+- Annual kelp harvest by bed type: `?cdfw_kelp`
+- Annual kelp harvest overall: `?cdfw_kelp_tots`
 
 __Other West Coast fisheries datasets__
 - Annual commercial landings by state (CA/OR/WA), port complex, and species from PACFIN: `?pacfin_all06`
