@@ -118,20 +118,6 @@
 #' }
 "cdfw_kelp"
 
-#' #' CDFW annual harvest of kelp
-#' #'
-#' #' Annual harvest of kelp (Macrocystis spp.) from 1916-2019.
-#' #'
-#' #' @format A data frame with the following attributes:
-#' #' \describe{
-#' #'   \item{source}{Source (Fish Bulletin or CDFW report)}
-#' #'   \item{year}{Year}
-#' #'   \item{type}{Reported or estimated using DataThief}
-#' #'   \item{harvest_t}{Total harvest in short tons (t)),
-#' #'   \item{harvest_mt}{Total harvest in metric tons (mt)}
-#' #' }
-#' "cdfw_kelp_tots"
-
 
 ################################################################################
 # CDFW commercial participation
