@@ -5,7 +5,15 @@
 \alias{cdfw_kelp}
 \title{CDFW annual harvest of kelp by bed type}
 \format{
-
+A data frame with the following attributes:
+\describe{
+  \item{source}{Source (Fish Bulletin or CDFW report)}
+  \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
+  \item{year}{Year}
+  \item{open_bed_t}{Harvest (short tons) from open beds}
+  \item{leased_bed_t}{Harvest (short tons) from leased beds}
+  \item{total_bed_t}{Total harvest (short tons) - sum of open and leased harvest}
+}
 }
 \usage{
 cdfw_kelp

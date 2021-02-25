@@ -113,10 +113,26 @@
 #'   \item{table}{Table number (e.g., Table 4, Table 5, etc.)}
 #'   \item{year}{Year}
 #'   \item{open_bed_t}{Harvest (short tons) from open beds}
-#'   \item{leased_bed_t}Harvest (short tons) from leased beds}
+#'   \item{leased_bed_t}{Harvest (short tons) from leased beds}
 #'   \item{total_bed_t}{Total harvest (short tons) - sum of open and leased harvest}
 #' }
 "cdfw_kelp"
+
+#' CDFW annual harvest of kelp
+#'
+#' Annual harvest of kelp (Macrocystis spp.) from 1916-2019. The data for 2003-2019 was extracted from the figure on the following web-page using DataThief: https://wildlife.ca.gov/Conservation/Marine/Kelp/Commercial-Harvest
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{source}{Source (Fish Bulletin, NOAA FOSS, or CDFW website)}
+#'   \item{year}{Year}
+#'   \item{type}{Reported or Estimated (using DataThief)}
+#'   \item{harvest_lb}{Total harvest in pounds (lbs)}
+#'   \item{harvest_t}{Total harvest in short tons (t) - a short ton equals 2000 lbs)}
+#'   \item{harvest_kg}{Total harvest in kilograms (kg)}
+#'   \item{harvest_mt}{Total harvest in metric tons (mt)}
+#' }
+"cdfw_kelp_tots"
 
 
 ################################################################################
