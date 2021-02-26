@@ -3,16 +3,19 @@
 \docType{data}
 \name{noaa}
 \alias{noaa}
-\title{NOAA annual commercial fisheries landings by state and species}
+\title{NOAA annual commercial and recreational fisheries landings by state and species}
 \format{
 A data frame with the following attributes:
 \describe{
   \item{region}{Region}
   \item{source}{Data source}
   \item{state}{State}
+  \item{fishery}{Fishery type (commercial or recreational)}
+  \item{tsn}{NOAA species code}
   \item{comm_name_orig}{Common name, as in original data}
   \item{sci_name_orig}{Scientific name, as in original data}
   \item{comm_name}{Common name, formatted}
+  \item{sci_name}{Scientific name, formatted}
   \item{level}{Taxonomic resolution (species-level or group-level)}
   \item{year}{Year (1950-2019)}
   \item{landings_lb}{Landings in pounds (lb)}
@@ -24,6 +27,6 @@ A data frame with the following attributes:
 noaa
 }
 \description{
-Annual commercial fisheries landings (pounds/value) by U.S. state and species from 1950-2019 from NOAA's FOSS database.
+Annual commercial and recreational fisheries landings (pounds/value) by U.S. state and species from 1950-2019 from NOAA's FOSS database.
 }
 \keyword{datasets}
