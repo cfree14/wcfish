@@ -14,9 +14,6 @@ A data frame with the following attributes:
   \item{tsn}{NOAA species code}
   \item{comm_name_orig}{Common name, as in original data}
   \item{sci_name_orig}{Scientific name, as in original data}
-  \item{comm_name}{Common name, formatted}
-  \item{sci_name}{Scientific name, formatted}
-  \item{level}{Taxonomic resolution (species-level or group-level)}
   \item{year}{Year (1950-2019)}
   \item{landings_lb}{Landings in pounds (lb)}
   \item{value_usd}{Landings in values ($US)}
