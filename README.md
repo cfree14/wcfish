@@ -67,4 +67,4 @@ The package implements miscellaneous functions including functions to:
 Citation
 ---------
 
-Free CM, Vargas Poulsen C, Bellquist LF (2021) The CALFISH database: open-sourcing a century of California’s non-confidential historical fisheries landings and participation data. _Near submission_.
+Free CM, Vargas Poulsen C, Bellquist LF (2021) The CALFISH database: open-sourcing a century of California’s non-confidential fisheries landings and participation data. _Submitted_.
