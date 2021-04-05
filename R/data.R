@@ -291,6 +291,26 @@
 #' }
 "pacfin_all6"
 
+#' PACFIN monthly commercial Dungeness crab landings by port complex
+#'
+#' Monthly commercial Dungeness crab landings (pounds/value) by port complex (CA/OR/WA) from 1980-2020 from the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{season}{Season}
+#'   \item{year}{Year}
+#'   \item{month}{Month}
+#'   \item{date}{Date}
+#'   \item{state}{State}
+#'   \item{port_code}{Port complex code}
+#'   \item{port_complex}{Port complex name}
+#'   \item{confidential}{Confidentiality flag}
+#'   \item{landings_mt}{Landings (mt)}
+#'   \item{price_usd_kg}{Price ($/lb)}
+#'   \item{revenues_usd}{Revenues (USD)}
+#' }
+"pacfin_crab2"
+
 #' CALCOM annual groundfish landings by port complex, gear type, and species
 #'
 #' Annual landings of California groundfish by port complex, gear type, and species from 1978-2019 based on the CALCOM database.
