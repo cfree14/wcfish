@@ -41,7 +41,8 @@ __California (CDFW) datasets__
 - Annual kelp harvest overall: `?cdfw_kelp_tots`
 
 __Other West Coast fisheries datasets__
-- Annual commercial landings by state (CA/OR/WA), port complex, and species from PACFIN: `?pacfin_all06`
+- Annual commercial landings by state (CA/OR/WA), port complex, and species from PACFIN: `?pacfin_all6`
+- Monthly commercial Dungeness crab landings by state (CA/OR/WA) and port complex from PACFIN: `?pacfin_crab2`
 - Monthly commercial landings in CA by port complex and species from the SWFCC: `?swfsc`
 - Annual commercial landings in CA by port complex, gear type, and species from the CALCOM: `?calcom`
 
