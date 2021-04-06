@@ -256,7 +256,7 @@
 
 
 ################################################################################
-# Other sources of data
+# NOAA
 ################################################################################
 
 #' NOAA annual commercial and recreational fisheries landings by state and species
@@ -278,6 +278,10 @@
 #'   \item{confidentiality}{Confidentiality note}
 #' }
 "noaa"
+
+################################################################################
+# PACFIN
+################################################################################
 
 #' PACFIN annual commercial fisheries landings by port complex and species
 #'
@@ -310,6 +314,40 @@
 #'   \item{revenues_usd}{Revenues (USD)}
 #' }
 "pacfin_crab2"
+
+#' PACFIN species meta-data
+#'
+#' Species in the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{spp_code}{Species code}
+#'   \item{comm_name}{Common name}
+#'   \item{sci_name}{Scientific name}
+#'   \item{mgmt_group_code}{Management group code}
+#'   \item{complex_code}{Species complex code}
+#' }
+"pacfin_species"
+
+#' PACFIN ports meta-data
+#'
+#' Ports in the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{port_code}{Port code}
+#'   \item{state1}{State name}
+#'   \item{state2}{State abbreviation}
+#'   \item{port_name}{Port name}
+#'   \item{port_yn}{Port (yes/no)}
+#'   \item{long_dd}{Longitude (°W)}
+#'   \item{lat_dd}{Latitude (°N)}
+#' }
+"pacfin_ports"
+
+################################################################################
+# CALCOM
+################################################################################
 
 #' CALCOM annual groundfish landings by port complex, gear type, and species
 #'
