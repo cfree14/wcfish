@@ -72,6 +72,13 @@ The package implements miscellaneous functions including functions to:
 - Harmonize common names and scientific names: `?harmonize_names`
 
 
+
+Vignette
+---------
+
+A vignette illustrating the use of the wcfish R package is available here: http://marine.rutgers.edu/~cfree/wp-content/uploads/wcfish-vignette.html
+
+
 Citation
 ---------
 
