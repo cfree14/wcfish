@@ -1,34 +1,42 @@
-wcfish: U.S. West Coast fisheries data
-======================================================================
+---
+title: "A brief guide to using the wcfish R package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
 
-Installation
-------------
-
-The "wcfish" R package can be installed from GitHub with:
-
-``` r
-# Run if you don't already have devtools installed
-install.packages("devtools")
-
-# Run once devtools is successfully installed
-devtools::install_github("cfree14/wcfish", force=T)
-library(wcfish)
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
 ```
 
-Alternatively, you can download the datasets included in this package as Excel files from the Dryad open-access data repository here: https://datadryad.org/stash/share/pBe97QTpKvF0If6p0HBEnKgzaX5YQoxf4CSvueeagkg
+## 1. Installation
+
+Let's begin by loading the wcfish package and its dependencies.
+
+```{r setup, results = "hide"}
+# Load package
+library(wcfish)
+library(tidyverse)
+```
 
 
-Datasets
----------
+## 2. Datasets
 
 The package includes the following West Coast fisheries datasets (listed below):
 
 __Coastwide datasets__
+
 - West Coast commercial fisheries species: `?taxa`
 - West Coast commercial fishing ports: `?ports`
 - West Coast commercial fishing blocks shapefile: `?blocks`
 
 __California (CDFW) datasets__
+
 - Annual commercial landings by source and species: `?cdfw_waters`
 - Annual commercial landings by port and species: `?cdfw_ports`
 - Annual number of licensed commercial fishers by area of residence: `?cdfw_n_comm_fishers`
@@ -41,38 +49,56 @@ __California (CDFW) datasets__
 - Annual kelp harvest overall: `?cdfw_kelp_tots`
 
 __PACFIN datasets__
+
 - Species meta-data: `?pacfin_species`
 - Ports and port complexes meta-data: `?pacfin_ports`
 - Annual commercial landings by state (CA/OR/WA), port complex, and species: `?pacfin_all6`
 - Monthly commercial Dungeness crab landings by state (CA/OR/WA) and port complex: `?pacfin_crab2`
 
 __Other West Coast fisheries datasets__
+
 - Monthly commercial landings in CA by port complex and species from the SWFCC: `?swfsc`
 - Annual commercial landings in CA by port complex, gear type, and species from the CALCOM: `?calcom`
 
-A dataset can be accessed and inspected as in the following example:
 
-``` r
-# See dataset metadata by typing a question mark and the dataset name
-?wcfish::blocks
+## 3. Inspecting datasets
 
-# Store the dataset in an object of your own choosing as follows:
-blocks_sf <- wcfish::blocks
+Every dataset is documented with metadata. To view the metadata for a dataset, use the `?` command. For example, if you wanted to look at the meta-data for the `cdfw_ports` dataset, you would do the following:
+
+```{r }
+# Examine the metadata for the cdfw_port dataset
+?cdfw_ports
+```
+
+This will pop up a description of the dataset and its columns in the "Help" screen of your R text editor.
+
+
+## 4. Saving the dataset as an object
+
+You can save the dataset as an object in your R environment using the assingment operator:
+
+```{r }
+# Save a dataset in your R environment
+data <- wcfish::cdfw_ports
 ```
 
 
-Functions
----------
+## 5. Preparing a quick plot of the dataset
 
-The package implements miscellaneous functions including functions to:
+We encourage you to work with the data and plot it based on your own needs. However, we also provide a `plot_data` function for generating a quick plot of the dataset of interest. Note that this only works for the CDFW datasets.
 
-- Check spelling of common names: `?check_names`
-- Reverse the format of common names (e.g., "Crab, Dungeness" to "Dungeness crab"): `?reverse_names`
-- Convert common names to a common format (i.e., all to "regular" or "reverse" formats): `?convert_names`
-- Harmonize common names and scientific names: `?harmonize_names`
+```{r fig.width=7, fig.height=4}
+# Quickly plot a CDFW dataset
+wcfish::plot_data("cdfw_ports")
+```
 
 
-Citation
----------
 
-Free CM, Vargas Poulsen C, Bellquist LF, Wassermann SN, Oken KL. The CALFISH database: a century of California’s non-confidential fisheries landings and participation data. _Submitted_.
+
+
+
+
+
+
+
+

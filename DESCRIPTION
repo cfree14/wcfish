@@ -12,4 +12,8 @@ RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
 Imports: dplyr
-Suggests: tidyverse
+Suggests: 
+    rmarkdown,
+    knitr,
+    tidyverse
+VignetteBuilder: knitr
