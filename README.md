@@ -15,7 +15,7 @@ devtools::install_github("cfree14/wcfish", force=T)
 library(wcfish)
 ```
 
-Alternatively, you can download the datasets included in this package as Excel files from the Dryad open-access data repository here: https://datadryad.org/stash/share/pBe97QTpKvF0If6p0HBEnKgzaX5YQoxf4CSvueeagkg
+Alternatively, you can download the datasets included in this package as Excel files from the Dryad open-access data repository here: https://datadryad.org/stash/dataset/doi:10.25349/D9M907
 
 
 Datasets
