@@ -82,4 +82,4 @@ A vignette illustrating the use of the wcfish R package is available here: http:
 Citation
 ---------
 
-Free CM, Vargas Poulsen C, Bellquist LF, Wassermann SN, Oken KL (2022) The CALFISH database: a century of California’s non-confidential fisheries landings and participation data. _Ecological Informatics_: https://doi.org/10.1016/j.ecoinf.2022.101599
+Free CM, Vargas Poulsen C, Bellquist LF, Wassermann SN, Oken KL (2022) The CALFISH database: a century of California’s non-confidential fisheries landings and participation data. _Ecological Informatics_ 69: 101599. https://doi.org/10.1016/j.ecoinf.2022.101599
