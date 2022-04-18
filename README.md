@@ -47,6 +47,12 @@ __PACFIN datasets__
 - Annual commercial landings by state (CA/OR/WA), port complex, and species: `?pacfin_all6`
 - Monthly commercial Dungeness crab landings by state (CA/OR/WA) and port complex: `?pacfin_crab2`
 
+__RECFIN datasets__
+- Total recreational mortality by state: `?recfin_cte2`
+- Total recreational mortality by mode: `?recfin_cte3`
+- Salmon catch estimates in OR and WA: `?recfin_cte5`
+- Salmon catch estimates in CA: `?recfin_cte7`
+
 __Other West Coast fisheries datasets__
 - Monthly commercial landings in CA by port complex and species from the SWFCC: `?swfsc`
 - Annual commercial landings in CA by port complex, gear type, and species from the CALCOM: `?calcom`
