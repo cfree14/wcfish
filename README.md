@@ -15,7 +15,7 @@ devtools::install_github("cfree14/wcfish", force=T)
 library(wcfish)
 ```
 
-Alternatively, you can download the datasets included in this package as Excel files from the Dryad open-access data repository here: https://datadryad.org/stash/share/pBe97QTpKvF0If6p0HBEnKgzaX5YQoxf4CSvueeagkg
+Alternatively, you can download the datasets included in this package as Excel files from the Dryad open-access data repository here: https://datadryad.org/stash/dataset/doi:10.25349/D9M907
 
 
 Datasets
@@ -82,4 +82,4 @@ A vignette illustrating the use of the wcfish R package is available here: http:
 Citation
 ---------
 
-Free CM, Vargas Poulsen C, Bellquist LF, Wassermann SN, Oken KL. The CALFISH database: a century of California’s non-confidential fisheries landings and participation data. _Submitted_.
+Free CM, Vargas Poulsen C, Bellquist LF, Wassermann SN, Oken KL (2022) The CALFISH database: a century of California’s non-confidential fisheries landings and participation data. _Ecological Informatics_ 69: 101599. https://doi.org/10.1016/j.ecoinf.2022.101599
