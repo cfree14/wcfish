@@ -441,6 +441,18 @@
 #' }
 "recfin_cte7"
 
+#' RECFIN species key
+#'
+#' An unofficial (i.e., made by Chris Free) key to species in the RECFIN data.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{comm_name_orig}{Common name in original data}
+#'   \item{comm_name}{Common name, formatted}
+#'   \item{sci_name}{Scientific name, as judged by Chris Free}
+#' }
+"recfin_species"
+
 
 ################################################################################
 # CALCOM
