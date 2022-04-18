@@ -360,6 +360,88 @@
 #' }
 "pacfin_ports"
 
+
+################################################################################
+# RECFIN
+################################################################################
+
+#' RECFIN annual recreational landings and discards by state and more
+#'
+#' Annual recreational fisheries landings and discards by state (CA/OR/WA), water area, mode, trip type, and species from 2001-2020 from the RECFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{state}{State}
+#'   \item{water_area}{Water area}
+#'   \item{mode}{Mode}
+#'   \item{trip_type}{Trip type}
+#'   \item{comm_name}{Common name}
+#'   \item{year}{Year}
+#'   \item{status}{Retained or released (dead)}
+#'   \item{catch_n}{Catch, in number of fish}
+#'   \item{catch_mt}{Catch, in metric tons}
+#' }
+"recfin_cte2"
+
+#' RECFIN annual recreational mortality by state and mode
+#'
+#' Annual recreational fisheries mortality by state (CA/OR/WA), mode, and species from 2001-2020 from the RECFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{state}{State}
+#'   \item{mode}{Mode}
+#'   \item{comm_name}{Common name}
+#'   \item{year}{Year}
+#'   \item{catch_n}{Catch, in number of fish}
+#'   \item{catch_mt}{Catch, in metric tons}
+#' }
+"recfin_cte3"
+
+#' RECFIN annual recreational salmon landings and discards from OR and WA
+#'
+#' Annual recreational salmon landings and discards from OR and WA from 2001-2020 from the RECFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{year}{Year}
+#'   \item{month}{Month}
+#'   \item{week}{Week}
+#'   \item{state}{State}
+#'   \item{district}{District}
+#'   \item{mode}{Mode}
+#'   \item{water_area}{Water area}
+#'   \item{subregion}{Subregion}
+#'   \item{trip_type}{Trip type}
+#'   \item{comm_name}{Common name}
+#'   \item{retained_n}{Number of retained fish}
+#'   \item{released_n}{Number of released fish}
+#' }
+"recfin_cte5"
+
+#' RECFIN annual recreational salmon landings and discards from CA
+#'
+#' Annual recreational salmon landings and discards from CA from 1976-2021 from the RECFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{year}{Year}
+#'   \item{month}{Month}
+#'   \item{agency_code}{Agency code}
+#'   \item{agency}{Agency}
+#'   \item{state}{State}
+#'   \item{area}{area}
+#'   \item{water_area_code}{Water area code}
+#'   \item{water_area}{Water area}
+#'   \item{mode}{Mode}
+#'   \item{spp_code}{Species code}
+#'   \item{comm_name}{Common name}
+#'   \item{sci_name}{Scientific name}
+#'   \item{retained_n}{Number of retained fish}
+#' }
+"recfin_cte7"
+
+
 ################################################################################
 # CALCOM
 ################################################################################
