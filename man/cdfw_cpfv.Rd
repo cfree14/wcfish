@@ -7,23 +7,18 @@
 \format{
 A data frame with the following attributes:
 \describe{
-  \item{...}{Source (Fish Bulletin or CDFW report)}
-  \item{...}{Table number (e.g., Table 4, Table 5, etc.)}
-  \item{...}{Regional scale (statewide or northern/southern)}
-  \item{...}{Port complex, 1987-2019 typology}
-  \item{...}{Port sub-complex, as in the original data}
-  \item{...}{Year}
-  \item{...}{Species category (e.g., HMS, rockfish, roundfish, flatfish, etc.)}
-  \item{...}{Species common name, as in the original data}
-  \item{...}{Species common name, harmonized across datasets}
-  \item{...}{Species scientific name}
-  \item{...}{Landings in number of fish}
+  \item{waters}{Waters (Fish Bulletin or CDFW report)}
+  \item{comm_name}{Species common name, harmonized across datasets}
+  \item{comm_name_orig}{Species common name, as in the original data}
+  \item{sci_name}{Species scientific name}
+  \item{year}{Year}
+  \item{landings_n}{Landings in number of fish}
 }
 }
 \usage{
 cdfw_cpfv
 }
 \description{
-Annual landings from Commercial Passenger Fishing Vessels (CPFVs) in California from 1936-2019.
+Annual landings from Commercial Passenger Fishing Vessels (CPFVs) in California from 2000-2019.
 }
 \keyword{datasets}
