@@ -450,6 +450,7 @@
 #'   \item{comm_name_orig}{Common name in original data}
 #'   \item{comm_name}{Common name, formatted}
 #'   \item{sci_name}{Scientific name, as judged by Chris Free}
+#'   \item{category}{Taxonomic category, as assigned by Chris Free}
 #' }
 "recfin_species"
 
