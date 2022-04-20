@@ -44,7 +44,9 @@ __California (CDFW) datasets__
 __PACFIN datasets__
 - Species meta-data: `?pacfin_species`
 - Ports and port complexes meta-data: `?pacfin_ports`
-- Annual commercial landings by state (CA/OR/WA), port complex, and species: `?pacfin_all6`
+- Annual commercial landings by state (CA/OR/WA) and species: `?pacfin_all1`
+- Annual commercial landings by state (CA/OR/WA), port complex, and species: `?pacfin_all5`
+- Monthly commercial landings by state (CA/OR/WA) and species: `?pacfin_all6`
 - Monthly commercial Dungeness crab landings by state (CA/OR/WA) and port complex: `?pacfin_crab2`
 
 __RECFIN datasets__
