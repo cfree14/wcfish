@@ -12,6 +12,9 @@ A data frame with the following attributes:
   \item{state}{State}
   \item{fishery}{Fishery type (commercial or recreational)}
   \item{tsn}{NOAA species code}
+  \item{comm_name}{Common name, formatted by Chris Free}
+  \item{sci_name}{Scientific name, derived from taxize package with TSN}
+  \item{level}{Taxanomic rank, derived from taxize package with TSN}
   \item{comm_name_orig}{Common name, as in original data}
   \item{sci_name_orig}{Scientific name, as in original data}
   \item{year}{Year (1950-2019)}
