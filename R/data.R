@@ -301,9 +301,33 @@
 # PACFIN
 ################################################################################
 
+#' PACFIN annual commercial fisheries landings by species
+#'
+#' Annual commercial fisheries landings (pounds/value) by species from 1980-2020 from the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{year}{Year}
+#'   \item{state}{State}
+#'   \item{......}{More coming soon}
+#' }
+"pacfin_all1"
+
 #' PACFIN annual commercial fisheries landings by port complex and species
 #'
 #' Annual commercial fisheries landings (pounds/value) by port complex (CA/OR/WA) and species from 1980-2020 from the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{year}{Year}
+#'   \item{state}{State}
+#'   \item{......}{More coming soon}
+#' }
+"pacfin_all5"
+
+#' PACFIN monthly commercial fisheries landings by port complex and species
+#'
+#' Monthly commercial fisheries landings (pounds/value) by species from 1980-2020 from the PACFIN database.
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
