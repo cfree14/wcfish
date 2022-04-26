@@ -17,6 +17,8 @@ A data frame with the following attributes:
   \item{subregion}{Subregion}
   \item{trip_type}{Trip type}
   \item{comm_name}{Common name}
+  \item{sci_name}{Scientific name}
+  \item{level}{Level (species or group)}
   \item{retained_n}{Number of retained fish}
   \item{released_n}{Number of released fish}
 }

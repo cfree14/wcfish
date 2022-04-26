@@ -11,6 +11,7 @@ A data frame with the following attributes:
   \item{comm_name}{Species common name, harmonized across datasets}
   \item{comm_name_orig}{Species common name, as in the original data}
   \item{sci_name}{Species scientific name}
+  \item{level}{Level (species or group)}
   \item{year}{Year}
   \item{landings_n}{Landings in number of fish}
 }

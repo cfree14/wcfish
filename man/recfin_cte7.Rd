@@ -19,6 +19,7 @@ A data frame with the following attributes:
   \item{spp_code}{Species code}
   \item{comm_name}{Common name}
   \item{sci_name}{Scientific name}
+  \item{level}{Level (species or group)}
   \item{retained_n}{Number of retained fish}
 }
 }

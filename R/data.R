@@ -221,6 +221,7 @@
 #'   \item{comm_name}{Species common name, harmonized across datasets}
 #'   \item{comm_name_orig}{Species common name, as in the original data}
 #'   \item{sci_name}{Species scientific name}
+#'   \item{level}{Level (species or group)}
 #'   \item{year}{Year}
 #'   \item{landings_n}{Landings in number of fish}
 #' }
@@ -441,6 +442,8 @@
 #'   \item{subregion}{Subregion}
 #'   \item{trip_type}{Trip type}
 #'   \item{comm_name}{Common name}
+#'   \item{sci_name}{Scientific name}
+#'   \item{level}{Level (species or group)}
 #'   \item{retained_n}{Number of retained fish}
 #'   \item{released_n}{Number of released fish}
 #' }
@@ -464,6 +467,7 @@
 #'   \item{spp_code}{Species code}
 #'   \item{comm_name}{Common name}
 #'   \item{sci_name}{Scientific name}
+#'   \item{level}{Level (species or group)}
 #'   \item{retained_n}{Number of retained fish}
 #' }
 "recfin_cte7"
