@@ -314,6 +314,26 @@
 #' }
 "pacfin_all1"
 
+#' PACFIN annual commercial fisheries landings by species and gear
+#'
+#' Annual commercial fisheries landings (pounds/value) by species and gear from 1980-2022 from the PACFIN database.
+#'
+#' @format A data frame with the following attributes:
+#' \describe{
+#'   \item{state}{State}
+#'   \item{mgmt_group}{Management group}
+#'   \item{complex}{Complex}
+#'   \item{comm_name}{Common name}
+#'   \item{spp_code}{PACFIN species code}
+#'   \item{gear}{Gear}
+#'   \item{year}{Year}
+#'   \item{catch_mt}{Catch (mt)}
+#'   \item{revenue_usd}{Revenues (USD)}
+#'   \item{price_usd_lb}{Price (USD/lb)}
+#'   \item{confidential}{Confidential}
+#' }
+"pacfin_all2"
+
 #' PACFIN annual commercial fisheries landings by port complex and species
 #'
 #' Annual commercial fisheries landings (pounds/value) by port complex (CA/OR/WA) and species from 1980-2020 from the PACFIN database.
