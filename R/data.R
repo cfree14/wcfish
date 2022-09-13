@@ -56,6 +56,21 @@
 #' }
 "blocks"
 
+#' California marine protected areas
+#'
+#' An 'sf' object (similar to a shapefile) mapping the California's marine protected areas.
+#'
+#' @format An 'sf' object data frame with 155 rows (MPAs) and 14 variables (MPA attributes):
+#' \describe{
+#'   \item{name}{MPA name, designation abbreviated}
+#'   \item{name_full}{MPA name, designation spelled out}
+#'   \item{name_short}{MPA name, designation removed}
+#'   \item{region}{MLPA region}
+#'   \item{type}{MPA type (SMR, SMRMA, SMCA, SMP, FMP, FMCA, etc)}
+#'   \item{...}{...}
+#' }
+"mpas_ca"
+
 ################################################################################
 # CDFW commercial landings
 ################################################################################
