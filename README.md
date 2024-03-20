@@ -89,7 +89,7 @@ The package implements miscellaneous functions including functions to:
 Vignette
 ---------
 
-A vignette illustrating the use of the wcfish R package is available here: http://marine.rutgers.edu/~cfree/wp-content/uploads/wcfish-vignette.html
+A vignette illustrating the use of the wcfish R package is available here: https://chrismfree.com/wp-content/uploads/wcfish-vignette.html
 
 
 Citation
