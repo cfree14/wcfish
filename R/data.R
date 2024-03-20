@@ -70,6 +70,7 @@
 #'   \item{mpla_yn}{MPA in MLPA (yes/no)?}
 #'   \item{implementation_year}{Implementation year}
 #'   \item{implementation_date}{Implementation date}
+#'   \item{block_id}{Primary block associated with the MPA}
 #'   \item{...}{...}
 #' }
 "mpas_ca"

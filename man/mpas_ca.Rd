@@ -15,6 +15,7 @@ An 'sf' object data frame with 155 rows (MPAs) and 14 variables (MPA attributes)
   \item{mpla_yn}{MPA in MLPA (yes/no)?}
   \item{implementation_year}{Implementation year}
   \item{implementation_date}{Implementation date}
+  \item{block_id}{Primary block associated with the MPA}
   \item{...}{...}
 }
 }
