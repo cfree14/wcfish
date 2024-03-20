@@ -67,6 +67,9 @@
 #'   \item{name_short}{MPA name, designation removed}
 #'   \item{region}{MLPA region}
 #'   \item{type}{MPA type (SMR, SMRMA, SMCA, SMP, FMP, FMCA, etc)}
+#'   \item{mpla_yn}{MPA in MLPA (yes/no)?}
+#'   \item{implementation_year}{Implementation year}
+#'   \item{implementation_date}{Implementation date}
 #'   \item{...}{...}
 #' }
 "mpas_ca"
