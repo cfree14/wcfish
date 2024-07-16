@@ -27,7 +27,8 @@ block_from_gps <- function(lat_dd, long_dd){
   # Useful GPS data frame
   df_use <- df_full %>%
     # Reduce to records with both lat/long
-    filter(!is.na(long_dd) & !is.na(lat_dd))
+    filter(!is.na(long_dd) & !is.na(lat_dd)) %>%
+    unique()
 
   # GPS sp
   sp <- df_use %>%
@@ -42,7 +43,7 @@ block_from_gps <- function(lat_dd, long_dd){
 
   # Build complete data
   df_full1 <- df_full %>%
-    left_join(df_use)
+    left_join(df_use, by=c("long_dd", "lat_dd"))
 
   # Blocks out
   blocks_out <- df_full1$block_id
