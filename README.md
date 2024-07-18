@@ -83,6 +83,7 @@ The package implements miscellaneous functions including functions to:
 - Reverse the format of common names (e.g., "Crab, Dungeness" to "Dungeness crab"): `?reverse_names`
 - Convert common names to a common format (i.e., all to "regular" or "reverse" formats): `?convert_names`
 - Harmonize common names and scientific names: `?harmonize_names`
+- Extract the CDFW block id associated with a list of GPS coordinates:`?block_from_gps`
 
 
 
