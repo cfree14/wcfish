@@ -22,6 +22,6 @@ A data frame with the following attributes:
 recfin_cte2
 }
 \description{
-Annual recreational fisheries landings and discards by state (CA/OR/WA), water area, mode, trip type, and species from 2001-2020 from the RECFIN database.
+Annual recreational fisheries landings and discards by state (CA/OR/WA), water area, mode, trip type, and species from 2001-2024 from the RECFIN database.
 }
 \keyword{datasets}

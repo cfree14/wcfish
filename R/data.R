@@ -434,7 +434,7 @@
 
 #' RECFIN annual recreational landings and discards by state and more
 #'
-#' Annual recreational fisheries landings and discards by state (CA/OR/WA), water area, mode, trip type, and species from 2001-2020 from the RECFIN database.
+#' Annual recreational fisheries landings and discards by state (CA/OR/WA), water area, mode, trip type, and species from 2001-2024 from the RECFIN database.
 #'
 #' @format A data frame with the following attributes:
 #' \describe{
