@@ -16,6 +16,6 @@ A data frame with the following attributes:
 pacfin_all1
 }
 \description{
-Annual commercial fisheries landings (pounds/value) by species from 1980-2020 from the PACFIN database.
+Annual commercial fisheries landings (pounds/value) by species from 1980-2024 from the PACFIN database.
 }
 \keyword{datasets}
